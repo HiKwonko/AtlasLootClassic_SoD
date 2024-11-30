@@ -8612,19 +8612,32 @@ data["Zul'Gurub"] = {
 			name = AL["Enchants"],
 			ExtraList = true,
 			[SOD_DIFF] = {
-				{ 1,  19789 }, -- Prophetic Aura
-				{ 2,  19787 }, -- Presence of Sight
-				{ 3,  19788 }, -- Hoodoo Hex
-				{ 4,  19784 }, -- Death's Embrace
-				{ 5,  19790 }, -- Animist's Caress
-				{ 6,  19785 }, -- Falcon's Call
-				{ 7,  19786 }, -- Vodouisant's Vigilant Embrace
-				{ 8,  19783 }, -- Syncretist's Sigil
-				{ 9,  19782 }, -- Presence of Might
-				{ 16, 20077 }, -- Zandalar Signet of Might
-				{ 17, 20076 }, -- Zandalar Signet of Mojo
-				{ 18, 20078 }, -- Zandalar Signet of Serenity
-				{ 20, 22635 }, -- Savage Guard
+				{ 1,  231366 }, -- Prophetic Aura
+				{ 2,  231367 }, -- Prophetic Aura
+				{ 3,  231383 }, -- Presence of Sight
+				{ 4,  231376 }, -- Hoodoo Hex
+				{ 5  231377 }, -- Hoodoo Hex
+				{ 6,  231368 }, -- Death's Embrace
+				{ 7,  231370 }, -- Death's Embrace
+				{ 8,  231354 }, -- Animist's Caress
+				{ 9,  231355 }, -- Animist's Caress
+				{ 10,  231357 }, -- Animist's Caress
+				{ 11,  231358 }, -- Animist's Caress
+				{ 12,  231359 }, -- Falcon's Call
+				{ 13,  231384 }, -- Falcon's Call
+				{ 14,  231371 }, -- Vodouisant's Vigilant Embrace
+				{ 15,  231375 }, -- Vodouisant's Vigilant Embrace
+				{ 16,  231373 }, -- Vodouisant's Vigilant Embrace
+				{ 17,  231372 }, -- Vodouisant's Vigilant Embrace
+				{ 18,  231361 }, -- Syncretist's Sigil
+				{ 19,  231362 }, -- Syncretist's Sigil
+				{ 20,  231363 }, -- Syncretist's Sigil
+				{ 21,  231364 }, -- Syncretist's Sigil
+				{ 22,  231383 }, -- Presence of Might
+				{ 23, 20077 }, -- Zandalar Signet of Might
+				{ 24, 20076 }, -- Zandalar Signet of Mojo
+				{ 25, 20078 }, -- Zandalar Signet of Serenity
+				{ 26, 22635 }, -- Savage Guard
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  19789 }, -- Prophetic Aura
