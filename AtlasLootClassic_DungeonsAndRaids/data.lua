@@ -8616,7 +8616,7 @@ data["Zul'Gurub"] = {
 				{ 2,  231367 }, -- Prophetic Aura
 				{ 3,  231383 }, -- Presence of Sight
 				{ 4,  231376 }, -- Hoodoo Hex
-				{ 5  231377 }, -- Hoodoo Hex
+				{ 5,  231377 }, -- Hoodoo Hex
 				{ 6,  231368 }, -- Death's Embrace
 				{ 7,  231370 }, -- Death's Embrace
 				{ 8,  231354 }, -- Animist's Caress
@@ -8634,10 +8634,10 @@ data["Zul'Gurub"] = {
 				{ 20,  231363 }, -- Syncretist's Sigil
 				{ 21,  231364 }, -- Syncretist's Sigil
 				{ 22,  231383 }, -- Presence of Might
-				{ 23, 20077 }, -- Zandalar Signet of Might
-				{ 24, 20076 }, -- Zandalar Signet of Mojo
-				{ 25, 20078 }, -- Zandalar Signet of Serenity
-				{ 26, 22635 }, -- Savage Guard
+				{ 23,  20077 }, -- Zandalar Signet of Might
+				{ 24,  20076 }, -- Zandalar Signet of Mojo
+				{ 25,  20078 }, -- Zandalar Signet of Serenity
+				{ 26,  22635 }, -- Savage Guard
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  19789 }, -- Prophetic Aura
