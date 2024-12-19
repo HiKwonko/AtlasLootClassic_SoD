@@ -133,7 +133,7 @@ data["Emerald Wardens"] = {
 			name = ALIL["Friendly"],
 			[NORMAL_DIFF] = {
 				{ 1, "f2641rep5" },
-				{ 2, 221392 }, --Emerald Scalemail Shoudlers
+				{ 2, 221392 }, --Emerald Scalemail Shoulders
 				{ 3, 221389 }, --Emerald Scalemail Gauntlets
 				{ 4, 221393 }, --Emerald Scalemail Boots
 				{ 5, 221399 }, --Emerald Laden Shoulders
@@ -555,61 +555,73 @@ data["CenarionCircle"] = {
 			name = ALIL["Exalted"],
 			[NORMAL_DIFF] = {
 				{ 1, "f609rep8" },
-				{ 2,  20382 }, -- Pattern: Dreamscale Breastplate
-				{ 17,  21188 }, -- Fist of Cenarius
-				{ 18,  21180 }, -- Earthstrike
-				{ 19,  21190 }, -- Wrath of Cenarius
+				{ 2,  234325 }, -- Pattern: Dreamscale Breastplate
+				{ 3,  234461 }, -- Plans: Obisidian Mail Tunic
+				{ 17, 234747 }, -- Fist of Cenarius
+				{ 18, 234462 }, -- Earthstrike
+				{ 19, 234463 }, -- Wrath of Cenarius
 			},
 		},
 		{ -- Revered
 			name = ALIL["Revered"],
 			[NORMAL_DIFF] = {
 				{ 1, "f609rep7" },
-				{ 2,  22683 }, -- Pattern: Gaea's Embrace
-				{ 3,  22312 }, -- Pattern: Satchel of Cenarius
-				{ 4,  22774 }, -- Pattern: Sylvan Vest
-				{ 5,  22771 }, -- Pattern: Bramblewood Helm
-				{ 6,  20508 }, -- Pattern: Spitfire Breastplate
-				{ 7,  20511 }, -- Pattern: Sandstalker Breastplate
-				{ 8,  22766 }, -- Plans: Ironvine Breastplate
-				{ 9,  22219 }, -- Plans: Jagged Obsidian Shield
-				{ 17,  21184 }, -- Deeprock Bracers
-				{ 18,  21186 }, -- Rockfury Bracers
-				{ 19,  21185 }, -- Earthcalm Orb
-				{ 20,  21189 }, -- Might of Cenarius
+				{ 2,   22312 }, -- Pattern: Satchel of Cenarius
+				{ 3,  234318 }, -- Pattern: Sylvan Vest
+				{ 4,  234311 }, -- Pattern: Bramblewood Helm
+				{ 5,  234305 }, -- Pattern: Spitfire Breastplate
+				{ 6,  234299 }, -- Pattern: Sandstalker Breastplate
+				{ 7,  234293 }, -- Plans: Ironvine Breastplate
+				{ 8,  234458 }, -- Plans: Jagged Obsidian Shield
+				{ 9,  234261 }, -- Schematic: Schematic: Arcane Megabomb
+				{ 17, 234748 }, -- Deeprock Bracers
+				{ 18, 234760 }, -- Rockfury Bracers
+				{ 19, 234749 }, -- Earthcalm Orb
+				{ 20, 234761 }, -- Might of Cenarius
 			},
 		},
 		{ -- Honored
 			name = ALIL["Honored"],
 			[NORMAL_DIFF] = {
 				{ 1, "f609rep6" },
-				{ 2,  22773 }, -- Pattern: Sylvan Crown
-				{ 3,  22770 }, -- Pattern: Bramblewood Boots
-				{ 4,  20507 }, -- Pattern: Spitfire Gauntlets
-				{ 5,  20510 }, -- Pattern: Sandstalker Gauntlets
-				{ 6,  22767 }, -- Plans: Ironvine Gloves
-				{ 7,  22214 }, -- Plans: Light Obsidian Belt
-				{ 8,  20733 }, -- Formula: Enchant Cloak - Greater Nature Resistance
-				{ 17,  21181 }, -- Grace of Earth
-				{ 18,  21183 }, -- Earthpower Vest
-				{ 19,  21182 }, -- Band of Earthen Might
+				{ 2,  234316 }, -- Pattern: Sylvan Crown
+				{ 3,  234297 }, -- Pattern: Sandstalker Gauntlets
+				{ 4,  234303 }, -- Pattern: Spitfire Gauntlets
+				{ 5,  234309 }, -- Pattern: Bramblewood Boots
+				{ 6,  234291 }, -- Plans: Ironvine Gloves
+				{ 7,  234322 }, -- Plans: Light Obsidian Belt
+				{ 8,  234278 }, -- Manual: Smelt Obsidian-Infused Thorium Bar
+				{ 9,   20733 }, -- Formula: Enchant Cloak - Greater Nature Resistance
+				{ 10, 234257 }, -- Recipe: Elixir of the Honey Badger
+				{ 11, 234258 }, -- Recipe: Elixir of the Mage-Lord
+				{ 12, 234259 }, -- Recipe: Elixir of the Ironside
+				{ 13, 234262 }, -- Schematic: The Fumigator
+				{ 17, 234779 }, -- Grace of Earth
+				{ 18, 234782 }, -- Earthpower Vest
+				{ 19, 234780 }, -- Band of Earthen Might
 			},
 		},
 		{ -- Friendly
 			name = ALIL["Friendly"],
 			[NORMAL_DIFF] = {
 				{ 1, "f609rep5" },
-				{ 2,  22772 }, -- Pattern: Sylvan Shoulders
-				{ 3,  22310 }, -- Pattern: Cenarion Herb Bag
-				{ 4,  22769 }, -- Pattern: Bramblewood Belt
-				{ 5,  20506 }, -- Pattern: Spitfire Bracers
-				{ 6,  20509 }, -- Pattern: Sandstalker Bracers
-				{ 7,  22768 }, -- Plans: Ironvine Belt
-				{ 8,  22209 }, -- Plans: Heavy Obsidian Belt
-				{ 9,  20732 }, -- Formula: Enchant Cloak - Greater Fire Resistance
-				{ 17,  21178 }, -- Gloves of Earthen Power
-				{ 18,  21187 }, -- Earthweave Cloak
-				{ 19,  21179 }, -- Band of Earthen Wrath
+				{ 2,  234445 }, -- Pattern: Bolt of Qiraji Silk
+				{ 3,  234314 }, -- Pattern: Sylvan Shoulders
+				{ 4,   22310 }, -- Pattern: Cenarion Herb Bag
+				{ 5,  234307 }, -- Pattern: Bramblewood Belt
+				{ 6,  234295 }, -- Pattern: Sandstalker Bracers
+				{ 7,  234289 }, -- Plans: Ironvine Belt
+				{ 8,  234320 }, -- Plans: Heavy Obsidian Belt
+				{ 9,  234279 }, -- Plans: Obsidian Grinding Stone
+				{ 10,  20732 }, -- Formula: Enchant Cloak - Greater Fire Resistance
+				{ 11, 234272 }, -- Formula: Enchanted Repellent
+				{ 12, 234271 }, -- Formula: Scroll: Wrath of the Swarm
+				{ 13, 234260 }, -- Recipe: Elixir of Alacrity
+				{ 14, 234263 }, -- Schematic: Obsidian Bomb
+				{ 15, 234280 }, -- Schematic: Obsidian Blasting Powder
+				{ 17, 234785 }, -- Gloves of Earthen Power
+				{ 18, 234788 }, -- Earthweave Cloak
+				{ 19, 234786 }, -- Band of Earthen Wrath
 			},
 		},
 	},
