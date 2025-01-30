@@ -156,7 +156,32 @@ local T3_SET = {
 	TableType = SET_ITTYPE,
 	ContentPhase = 6,
 	IgnoreAsSource = true,
-	[ALLIANCE_DIFF] = {
+	[SOD_DIFF] = {
+		{ 1, 1904 }, -- Druid Balance
+		{ 2, 1903 }, -- Druid Feral
+		{ 3, 1902 }, -- Druid Resto
+		{ 4, 1901 }, -- Druid Tank
+		{ 6, 1899 }, -- Hunter (Ranged)
+		{ 7, 1900 }, -- Hunter (Melee)
+		{ 9, 1898 }, -- Mage (DPS)
+		{ 10, 1897 }, -- Mage (Healer)
+		{ 12, 1889 }, -- Shaman (Ele)
+		{ 13, 1888 }, -- Shaman (Enhance)
+		{ 14, 1887 }, -- Shaman (Resto)
+		{ 15, 1886 }, -- Shaman (Tank)
+		{ 16, 1896 }, -- Paladin (DPS)
+		{ 17, 1895 }, -- Paladin (Healer)
+		{ 18, 1894 }, -- Paladin (Tank)
+		{ 20, 1893 }, -- Priest (DPS)
+		{ 21, 1892 }, -- Priest (Healer)
+		{ 23, 1891 }, -- Rogue (DPS)
+		{ 24, 1890 }, -- Rogue (Tank)
+		{ 26, 1885 }, -- Warlock (DPS)
+		{ 27, 1884 }, -- Warlock (Tank)
+		{ 29, 1883 }, -- Warrior (DPS)
+		{ 30, 1882 }, -- Warrior (Tank)
+	},
+	[NORMAL_DIFF] = {
 		{ 1, 529 }, -- Warlock
 		{ 3, 525 }, -- Priest
 		{ 16, 526 }, -- Mage
@@ -164,13 +189,8 @@ local T3_SET = {
 		{ 20, 521 }, -- Druid
 		{ 7, 530 }, -- Hunter
 		{ 9, 523 }, -- Warrior
-		{ 24, 528 }, -- Paladin
-	},
-
-	[HORDE_DIFF] = {
-		GetItemsFromDiff = ALLIANCE_DIFF,
 		{ 22, 527 }, -- Shaman
-		{ 24 }, -- Paladin
+		{ 24, 528 }, -- Paladin
 	},
 }
 
@@ -7916,28 +7936,28 @@ data["MoltenCore2"] = {
 				{ 16, 227535 },	-- Incandescent Robe
 				{ 17, 227766 },	-- Scorched Core Chest
 				{ 18, 227758 },	-- Molten Scaled Chest
-				{ 20, 227537 }, -- 
-				{ 21, 227752 }, -- 
-				{ 22, 227762 }, -- 
+				{ 20, 227537 }, -- Incandescent Shoulderpads
+				{ 21, 227752 }, -- Molten Scaled Shoulderpads
+				{ 22, 227762 }, -- Scorched Core Shoulderpads
 				{ 24, 227532 }, -- Incandescent Hood
 				{ 25, 227764 }, -- Scorched Core Helm
 				{ 26, 227755 }, -- Molten Scaled Helm
 				{ 30, "INV_Box_01", nil, AL["Continued-->"], nil },
-				{ 101, 227533 }, -- 
-				{ 102, 227756 }, -- 
-				{ 103, 227759 }, -- 
-				{ 105, 227531 }, -- 
-				{ 106, 227750 }, -- 
-				{ 107, 227760 }, -- 
-				{ 109, 227530 }, -- 
-				{ 110, 227751 }, -- 
-				{ 111, 227761 }, -- 
-				{ 116, 227534 }, -- 
-				{ 117, 227754 }, -- 
-				{ 118, 227763 }, -- 
-				{ 120, 227536 }, -- 
-				{ 121, 227757 }, -- 
-				{ 122, 227765 }, -- 
+				{ 101, 227533 }, -- Incandescent Gloves
+				{ 102, 227756 }, -- Molten Scaled Gloves
+				{ 103, 227759 }, -- Scorched Core Gloves
+				{ 105, 227531 }, -- Incandescent Bindings
+				{ 106, 227750 }, -- Molten Scaled Bindings
+				{ 107, 227760 }, -- Scorched Core Bindings
+				{ 109, 227530 }, -- Incandescent Belt
+				{ 110, 227751 }, -- Molten Sccaled Belt
+				{ 111, 227761 }, -- Scorched Core Belt
+				{ 116, 227534 }, -- Incandescent Leggings
+				{ 117, 227754 }, -- Molten Scaled Leggings
+				{ 118, 227763 }, -- Scorched Core Leggings
+				{ 120, 227536 }, -- Inncandescent Boots
+				{ 121, 227757 }, -- Molten Scaled Boots
+				{ 122, 227765 }, -- Scorched Core Boots
 			},
 		},
 		{ -- MCTrashMobs
@@ -8180,6 +8200,51 @@ data["DemonFallCanyon"] = {
 				{ 3, 231913}, -- Eye of the Observer
 				{ 4, 231460}, -- Planebreaker of Azgaloth
 				{ 5, 231912}, -- Blade of the Pit
+			},
+		},
+	},
+}
+
+data["Karazhan Crypts"] = {
+	MapID = 16074,
+	InstanceID = 16074,
+	ContentType = DUNGEON_CONTENT,
+	LevelRange = {60, 60, 60},
+	items = {
+		{ -- KaraLoot
+			name = AL["Loot"],
+			[SOD_DIFF] = {
+				{ 1, 235891}, -- Ol' Reliable
+				{ 2, 235889}, -- Servant's Quarterstaff
+				{ 3, 235892}, -- Darkrider's Spine
+				{ 4, 235888}, -- Clobberclub
+				{ 5, 235894}, -- Doomsayer's Demise
+				{ 6, 235890}, -- Shadow Weaver's Needle
+				{ 7, 235868}, -- Bulwark of Ire
+				{ 8, 235893}, -- Shadowbound Grimoire
+				{ 10, 235873}, -- Crypt's Keepers
+				{ 11, 235883}, -- Well Diver's Stumble
+				{ 12, 235871}, -- Clutching Death Helm
+				{ 13, 235877}, -- Fanatic's Gauntlets
+				{ 14, 236645}, -- Lightwielder's Gauntlets
+				{ 15, "INV_Box_01", nil, AL["Boss Loot Not Yet Confirmed"], nil },
+				{ 16, 235872}, -- Stalker's Bands
+				{ 17, 235869}, -- The Master's Cowl
+				{ 18, 235881}, -- Dreaded Treaders
+				{ 19, 235875}, -- Gravedigger's Gloves
+				{ 21, 235876}, -- Sinner's Handguards
+				{ 22, 235870}, -- Battlechain Helm
+				{ 23, 235882}, -- Clattering Steps
+				{ 24, 235879}, -- Nimble Links
+				{ 26, 235878}, -- Malefic Belt
+				{ 27, 235874}, -- Cultist's Handwraps
+				{ 28, 236642}, -- Mender's Handwraps
+				{ 29, 235880}, -- Pauper Soles
+				{ 30, "INV_Box_01", nil, AL["Continued-->"], nil },
+				{ 101, 235885}, -- Ghastly Ring
+				{ 102, 235884}, -- Spectral Signet
+				{ 103, 235887}, -- Barian's Choker
+				{ 104, 235886}, -- Kaigy's Clasp
 			},
 		},
 	},
@@ -10153,6 +10218,19 @@ data["Naxxramas"] = {
 			DisplayIDs = {{15931}},
 			AtlasMapBossID = "1",
 			NameColor = BLUE,
+			[SOD_DIFF] = {
+				{ 1,  22726 }, -- Splinter of Atiesh
+				{ 2,  22727 }, -- Frame of Atiesh
+				{ 4,  236247 }, -- Desecrated Wristguards
+				{ 5,  236235 }, -- Desecrated Bracers
+				{ 6,  236245 }, -- Desecrated Bindings
+				{ 8,  236256 }, -- Touch of Frost
+				{ 9,  236258 }, -- Cryptfiend Silk Cloak
+				{ 10, 236255 }, -- Wristguards of Vengeance
+				{ 11, 236259 }, -- Band of Unanswered Prayers
+				{ 12, 236257 }, -- Gem of Nerubis
+				{ 15, "INV_Box_01", nil, AL["*Boss Loot Unconfirmed*"], nil },
+			},
 			[NORMAL_DIFF] = {
 				{ 1,  22726 }, -- Splinter of Atiesh
 				{ 2,  22727 }, -- Frame of Atiesh
@@ -10173,6 +10251,18 @@ data["Naxxramas"] = {
 			DisplayIDs = {{15940}},
 			AtlasMapBossID = "2",
 			NameColor = BLUE,
+			[SOD_DIFF] = {
+				{ 1,  22726 }, -- Splinter of Atiesh
+				{ 2,  22727 }, -- Frame of Atiesh
+				{ 4,  236247 }, -- Desecrated Wristguards
+				{ 5,  236235 }, -- Desecrated Bracers
+				{ 6,  236245 }, -- Desecrated Bindings
+				{ 8,  236261 }, -- Malice Stone Pendant
+				{ 9,  236262 }, -- Polar Shoulder Pads
+				{ 10, 236260 }, -- Icebane Pauldrons
+				{ 11, 236264 }, -- The Widow's Embrace
+				{ 12, 236263 }, -- Widow's Remorse
+			},
 			[NORMAL_DIFF] = {
 				{ 1,  22726 }, -- Splinter of Atiesh
 				{ 2,  22727 }, -- Frame of Atiesh
@@ -10193,6 +10283,18 @@ data["Naxxramas"] = {
 			DisplayIDs = {{15928}},
 			AtlasMapBossID = "3",
 			NameColor = BLUE,
+			[SOD_DIFF] = {
+				{ 1,  22726 }, -- Splinter of Atiesh
+				{ 2,  22727 }, -- Frame of Atiesh
+				{ 4,  236243 }, -- Desecrated Gloves
+				{ 5,  236250 }, -- Desecrated Handguards
+				{ 6,  236233 }, -- Desecrated Gauntlets
+				{ 8,  236266 }, -- Pendant of Forgotten Names
+				{ 9,  236267 }, -- Crystal Webbed Robe
+				{ 10, 236268 }, -- Kiss of the Spider
+				{ 11, 236265 }, -- Wraith Blade
+				{ 12, 236269 }, -- Maexxna's Fang
+			},
 			[NORMAL_DIFF] = {
 				{ 1,  22726 }, -- Splinter of Atiesh
 				{ 2,  22727 }, -- Frame of Atiesh
@@ -10214,6 +10316,20 @@ data["Naxxramas"] = {
 			DisplayIDs = {{16590}},
 			AtlasMapBossID = "1",
 			NameColor = PURP,
+			[SOD_DIFF] = {
+				{ 1,  22726 }, -- Splinter of Atiesh
+				{ 2,  22727 }, -- Frame of Atiesh
+				{ 4,  236244 }, -- Desecrated Belt
+				{ 5,  236252 }, -- Desecrated Girdle
+				{ 6,  236232 }, -- Desecrated Waistguard
+				{ 8,  236272 }, -- Cloak of the Scourge
+				{ 9,  236273 }, -- Band of the Inevitable
+				{ 10, 236274 }, -- Hailstone Band
+				{ 11, 236275 }, -- Noth's Frigid Heart
+				{ 12, 236271 }, -- Libram of Light
+				{ 13, 236276 }, -- Totem of Flowing Water
+				{ 14, 236270 }, -- Hatchet of Sundered Bone
+			},
 			[NORMAL_DIFF] = {
 				{ 1,  22726 }, -- Splinter of Atiesh
 				{ 2,  22727 }, -- Frame of Atiesh
@@ -10236,6 +10352,18 @@ data["Naxxramas"] = {
 			DisplayIDs = {{16309}},
 			AtlasMapBossID = "2",
 			NameColor = PURP,
+			[SOD_DIFF] = {
+				{ 1,  22726 }, -- Splinter of Atiesh
+				{ 2,  22727 }, -- Frame of Atiesh
+				{ 4,  236244 }, -- Desecrated Belt
+				{ 5,  236252 }, -- Desecrated Girdle
+				{ 6,  236232 }, -- Desecrated Waistguard
+				{ 8,  236279 }, -- Preceptor's Hat
+				{ 9,  236281 }, -- Icy Scale Coif
+				{ 10, 237275 }, -- Icebane Helmet
+				{ 11, 236277 }, -- Necklace of Necropsy
+				{ 12, 236280 }, -- Legplates of Carnage
+			},
 			[NORMAL_DIFF] = {
 				{ 1,  22726 }, -- Splinter of Atiesh
 				{ 2,  22727 }, -- Frame of Atiesh
@@ -10256,6 +10384,18 @@ data["Naxxramas"] = {
 			DisplayIDs = {{16110}},
 			AtlasMapBossID = "3",
 			NameColor = PURP,
+			[SOD_DIFF] = {
+				{ 1,  22726 }, -- Splinter of Atiesh
+				{ 2,  22727 }, -- Frame of Atiesh
+				{ 4,  236246 }, -- Desecrated Leggings
+				{ 5,  236253 }, -- Desecrated Legguards
+				{ 6,  236238 }, -- Desecrated Legplates
+				{ 8,  236286 }, -- Band of Unnatural Forces
+				{ 9,  236283 }, -- Ring of Spiritual Fervor
+				{ 10, 236282 }, -- Loatheb's Reflection
+				{ 11, 236285 }, -- The Eye of Nerub
+				{ 12, 236284 }, -- Brimstone Staff
+			},
 			[NORMAL_DIFF] = {
 				{ 1,  22726 }, -- Splinter of Atiesh
 				{ 2,  22727 }, -- Frame of Atiesh
@@ -10277,6 +10417,19 @@ data["Naxxramas"] = {
 			DisplayIDs = {{16582}},
 			AtlasMapBossID = "1",
 			NameColor = _RED,
+			[SOD_DIFF] = {
+				{ 1,  22726 }, -- Splinter of Atiesh
+				{ 2,  22727 }, -- Frame of Atiesh
+				{ 4,  236239 }, -- Desecrated Sandals
+				{ 5,  236248 }, -- Desecrated Boots
+				{ 6,  236234 }, -- Desecrated Sabatons
+				{ 8,  236307 }, -- Veil of Eclipse
+				{ 9,  236309}, -- Girdle of the Mentor
+				{ 10, 236311 }, -- Signet of the Fallen Defender
+				{ 11, 236308 }, -- Idol of Longevity
+				{ 12, 236310 }, -- Wand of the Whispering Dead
+				{ 13, 236312 }, -- Iblis, Blade of the Fallen Seraph
+			},
 			[NORMAL_DIFF] = {
 				{ 1,  22726 }, -- Splinter of Atiesh
 				{ 2,  22727 }, -- Frame of Atiesh
@@ -10298,6 +10451,18 @@ data["Naxxramas"] = {
 			DisplayIDs = {{16279}},
 			AtlasMapBossID = "2",
 			NameColor = _RED,
+			[SOD_DIFF] = {
+				{ 1,  22726 }, -- Splinter of Atiesh
+				{ 2,  22727 }, -- Frame of Atiesh
+				{ 4,  236239 }, -- Desecrated Sandals
+				{ 5,  236248 }, -- Desecrated Boots
+				{ 6,  236234 }, -- Desecrated Sabatons
+				{ 8,  236278 }, -- Glacial Headdress
+				{ 9,  236315 }, -- Polar Helmet
+				{ 10, 236316 }, -- Sadist's Collar
+				{ 11, 236313 }, -- The Soul Harvester's Bindings
+				{ 12, 236314 }, -- Boots of Displacement
+			},
 			[NORMAL_DIFF] = {
 				{ 1,  22726 }, -- Splinter of Atiesh
 				{ 2,  22727 }, -- Frame of Atiesh
@@ -10318,6 +10483,19 @@ data["Naxxramas"] = {
 			DisplayIDs = {{16155},{16153},{16139},{16154}},
 			AtlasMapBossID = "3",
 			NameColor = _RED,
+			[SOD_DIFF] = {
+				{ 1,  22726 }, -- Splinter of Atiesh
+				{ 2,  22727 }, -- Frame of Atiesh
+				{ 4,  236242 }, -- Desecrated Robe
+				{ 5,  236251 }, -- Desecrated Tunic
+				{ 6,  236231 }, -- Desecrated Breastplate
+				{ 8,  236319 }, -- Leggings of Apocalypse
+				{ 9,  236318 }, -- Seal of the Damned
+				{ 10, 236320 }, -- Warmth of Forgiveness
+				{ 11, 236322 }, -- Soulstring
+				{ 12, 236321 }, -- Maul of the Redeemed Crusader
+				{ 13, 236317 }, -- Corrupted Ashbringer
+			},
 			[NORMAL_DIFF] = {
 				{ 1,  22726 }, -- Splinter of Atiesh
 				{ 2,  22727 }, -- Frame of Atiesh
@@ -10339,6 +10517,18 @@ data["Naxxramas"] = {
 			Level = 999,
 			DisplayIDs = {{16174}},
 			AtlasMapBossID = 1,
+			[SOD_DIFF] = {
+				{ 1,  22726 }, -- Splinter of Atiesh
+				{ 2,  22727 }, -- Frame of Atiesh
+				{ 4,  236240 }, -- Desecrated Shoulderpads
+				{ 5,  236254 }, -- Desecrated Spaulders
+				{ 6,  236237 }, -- Desecrated Pauldrons
+				{ 8,  236289 }, -- Cloak of Suturing
+				{ 9,  236291 }, -- Band of Reanimation
+				{ 10, 236290}, -- Wand of Fates
+				{ 11, 236288 }, -- The Plague Bearer
+				{ 12, 236287 }, -- Severance
+			},
 			[NORMAL_DIFF] = {
 				{ 1,  22726 }, -- Splinter of Atiesh
 				{ 2,  22727 }, -- Frame of Atiesh
@@ -10358,6 +10548,18 @@ data["Naxxramas"] = {
 			Level = 999,
 			DisplayIDs = {{16035}},
 			AtlasMapBossID = 2,
+			[SOD_DIFF] = {
+				{ 1,  22726 }, -- Splinter of Atiesh
+				{ 2,  22727 }, -- Frame of Atiesh
+				{ 4,  236240 }, -- Desecrated Shoulderpads
+				{ 5,  236254 }, -- Desecrated Spaulders
+				{ 6,  236237 }, -- Desecrated Pauldrons
+				{ 8,  236295 }, -- Glacial Mantle
+				{ 9,  236294 }, -- Icy Scale Spaulders
+				{ 10, 236293 }, -- Toxin Injector
+				{ 11, 236292 }, -- Midnight Haze
+				{ 12, 236297 }, -- The End of Dreams
+			},
 			[NORMAL_DIFF] = {
 				{ 1,  22726 }, -- Splinter of Atiesh
 				{ 2,  22727 }, -- Frame of Atiesh
@@ -10377,6 +10579,27 @@ data["Naxxramas"] = {
 			Level = 999,
 			DisplayIDs = {{16064}},
 			AtlasMapBossID = 3,
+			[SOD_DIFF] = {
+				{ 1,  22726 }, -- Splinter of Atiesh
+				{ 2,  22727 }, -- Frame of Atiesh
+				{ 4,  236298 }, -- Rime Covered Mantle
+				{ 5,  236300 }, -- Gluth's Missing Collar
+				{ 6,  236301 }, -- Digested Hand of Power
+				{ 7,  236296 }, -- Death's Bargain
+				{ 8,  236299 }, -- Claymore of Unholy Might
+				{ 16,  236240 }, -- Desecrated Shoulderpads
+				{ 17,  236245 }, -- Desecrated Bindings
+				{ 18,  236244 }, -- Desecrated Belt
+				{ 19,  236239 }, -- Desecrated Sandals
+				{ 20,  236254 }, -- Desecrated Spaulders
+				{ 21,  236247 }, -- Desecrated Wristguards
+				{ 22,  236252 }, -- Desecrated Girdle
+				{ 23,  236248 }, -- Desecrated Boots
+				{ 24,  236237 }, -- Desecrated Pauldrons
+				{ 25,  236235 }, -- Desecrated Bracers
+				{ 26,  236232 }, -- Desecrated Waistguard
+				{ 27,  236234 }, -- Desecrated Sabatons
+			},
 			[NORMAL_DIFF] = {
 				{ 1,  22726 }, -- Splinter of Atiesh
 				{ 2,  22727 }, -- Frame of Atiesh
@@ -10405,6 +10628,18 @@ data["Naxxramas"] = {
 			Level = 999,
 			DisplayIDs = {{16137}},
 			AtlasMapBossID = 4,
+			[SOD_DIFF] = {
+				{ 1,  22726 }, -- Splinter of Atiesh
+				{ 2,  22727 }, -- Frame of Atiesh
+				{ 4,  236241 }, -- Desecrated Circlet
+				{ 5,  236249 }, -- Desecrated Headpiece
+				{ 6,  236236 }, -- Desecrated Helmet
+				{ 8,  236304 }, -- Plated Abomination Ribcage
+				{ 9,  236303 }, -- Leggings of Polarity
+				{ 10, 236302 }, -- Eye of Diminution
+				{ 11, 236306 }, -- The Castigator
+				{ 12, 236305 }, -- Spire of Twilight
+			},
 			[NORMAL_DIFF] = {
 				{ 1,  22726 }, -- Splinter of Atiesh
 				{ 2,  22727 }, -- Frame of Atiesh
@@ -10426,6 +10661,22 @@ data["Naxxramas"] = {
 			DisplayIDs = {{16033}},
 			AtlasMapBossID = "1",
 			NameColor = GREEN,
+			[SOD_DIFF] = {
+				{ 1,  236327 }, -- Cloak of the Necropolis
+				{ 2,  236333 }, -- Shroud of Dominion
+				{ 3,  236337 }, -- Glyph of Deflection
+				{ 4,  236329 }, -- Eye of the Dead
+				{ 5,  236334 }, -- Slayer's Crest
+				{ 6,  236331 }, -- The Restrained Essence of Sapphiron
+				{ 7,  236328 }, -- Sapphiron's Left Eye
+				{ 8,  236330 }, -- Sapphiron's Right Eye
+				{ 9,  236336 }, -- The Face of Death
+				{ 10, 236338 }, -- Claw of the Frost Wyrm
+				{ 16, 236325 }, -- Fortitude of the Scourge
+				{ 17, 236326 }, -- Might of the Scourge
+				{ 18, 236324 }, -- Power of the Scourge
+				{ 19, 236323 }, -- Resilience of the Scourge
+			},
 			[NORMAL_DIFF] = {
 				{ 1,  23050 }, -- Cloak of the Necropolis
 				{ 2,  23045 }, -- Shroud of Dominion
@@ -10450,6 +10701,23 @@ data["Naxxramas"] = {
 			DisplayIDs = {{15945}},
 			AtlasMapBossID = "2",
 			NameColor = GREEN,
+			[SOD_DIFF] = {
+				{ 1,  236345 }, -- Gem of Trapped Innocents
+				{ 2,  236342 }, -- Stormrage's Talisman of Seething
+				{ 3,  236344 }, -- Nerubian Slavemaker
+				{ 4,  236349 }, -- Doomfinger
+				{ 5,  236347 }, -- Shield of Condemnation
+				{ 6,  236343 }, -- Kingsfall
+				{ 7,  236348 }, -- Hammer of the Twisting Nether
+				{ 8,  236339 }, -- Gressil, Dawn of Ruin
+				{ 9,  236341 }, -- The Hungering Cold
+				{ 10, 236340 }, -- Might of Menethil
+				{ 11, 236346 }, -- Soulseeker
+				{ 13, 236350 }, -- The Phylactery of Kel'Thuzad
+				{ 15, 22733 }, -- Staff Head of Atiesh
+				{ 16, 237381 }, -- Desecrated Ring
+				{ 30, "INV_Box_01", nil, AL["Loot Not Yet Confirmed"], nil },
+			},
 			[NORMAL_DIFF] = {
 				{ 1,  23057 }, -- Gem of Trapped Innocents
 				{ 2,  23053 }, -- Stormrage's Talisman of Seething
@@ -10478,6 +10746,26 @@ data["Naxxramas"] = {
 		{ -- NAXTrash
 			name = AL["Trash"],
 			ExtraList = true,
+			[SOD_DIFF] = {
+				{ 1,  236226 }, -- Pauldrons of Elemental Fury
+				{ 2,  236228 }, -- Spaulders of the Grand Crusader
+				{ 3,  236220 }, -- Necro-Knight's Garb
+				{ 4,  236222 }, -- Ghoul Skin Tunic
+				{ 5,  236225 }, -- Girdle of Elemental Fury
+				{ 6,  236227 }, -- Belt of the Grand Crusader
+				{ 7,  236230 }, -- Leggings of Elemental Fury
+				{ 8,  236229 }, -- Leggings of the Grand Crusader
+				{ 9,  236223 }, -- Ring of the Eternal Flame
+				{ 10, 236224 }, -- Stygian Buckler
+				{ 11, 236219 }, -- Harbinger of Doom
+				{ 12, 236221 }, -- Misplaced Servo Arm
+				{ 16, 22376 }, -- Wartorn Cloth Scrap
+				{ 17, 22373 }, -- Wartorn Leather Scrap
+				{ 18, 22374 }, -- Wartorn Chain Scrap
+				{ 19, 22375 }, -- Wartorn Plate Scrap
+				{ 21, 237773 }, -- Word of Thawing
+				{ 22, 236656 }, -- Frozen Rune
+			},
 			[NORMAL_DIFF] = {
 				{ 1,  23664 }, -- Pauldrons of Elemental Fury
 				{ 2,  23667 }, -- Spaulders of the Grand Crusader

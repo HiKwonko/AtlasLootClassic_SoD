@@ -2991,6 +2991,30 @@ ReqData_RAW.CLASSIC = {
 	[23690] = {32767},
 	[24101] = {32256},
 	[24102] = {31240},
+	[236247] = {1090}, -- (Bracers)Paladin Shaman Druid
+	[236250] = {1090}, -- Gloves
+	[236252] = {1090}, -- Belt
+	[236253] = {1090}, -- Legs
+	[236248] = {1090}, -- Boots
+	[236251] = {1090}, -- Chest
+	[236254] = {1090}, -- Shoulders
+	[236249] = {1090}, -- Helm
+	[236235] = {133}, -- (Bracers)Warrior Hunter Mage
+	[236233] = {133}, -- Gloves
+	[236232] = {133}, -- Belt
+	[236238] = {133}, -- Legs
+	[236234] = {133}, -- Boots
+	[236231] = {133}, -- Chest
+	[236237] = {133}, -- Shoulders
+	[236236] = {133}, -- Helm
+	[236245] = {280}, -- (Bracers)Rogue Priest Warlock
+	[236243] = {280}, -- Gloves
+	[236244] = {280}, -- Belt
+	[236246] = {280}, -- Legs
+	[236239] = {280}, -- Boots
+	[236242] = {280}, -- Chest
+	[236240] = {280}, -- Shoulders
+	[236241] = {280}, -- Helm
 }
 
 if AtlasLoot:GameVersion_GE(AtlasLoot.BC_VERSION_NUM) then
