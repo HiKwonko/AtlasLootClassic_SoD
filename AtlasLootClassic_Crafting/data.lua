@@ -59,6 +59,8 @@ data["Alchemy"] = {
 				{ 10, 448085 }, --Flask of Restless Dreams
 				{ 11, 446226 }, --Flask of Everlasting Nightmares
 				{ 12, 446851 }, --Flask of Nightmarish Mojo
+				{ 14, "INV_Box_01", nil, AL["Phase 5"], nil },
+				{ 15, 471400 }, -- Magnificent Trollshine
 				{ 16, "INV_Box_01", nil, AL["Phase 6"], nil },
 				{ 17, 1213571 }, -- Elixir of Alacrity
 				{ 18, 1213559 }, -- Elixir of the Honey Badger

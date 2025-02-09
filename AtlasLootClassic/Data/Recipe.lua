@@ -1105,6 +1105,7 @@ RECIPE_DATA.CLASSIC = {
 	[232437] = {6,300,470359}, -- Recipe: Darkclaw Bisque
 	[232443] = {6,300,470370}, -- Recipe: Smoked Redgill
 	[232434] = {1,225,470349}, -- Dense Runecloth Bandage
+	[232610] = {10,300,471400}, -- Formula: Magnificent Trollshine
 }
 
 if AtlasLoot:GameVersion_GE(AtlasLoot.BC_VERSION_NUM) then

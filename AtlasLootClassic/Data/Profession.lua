@@ -1590,6 +1590,7 @@ PROFESSION_DATA.CLASSIC = {
 	[439505] = {217346,13,300,300,345,{8924,8925,8923},{3,1,1}}, -- Numbing Poison
 	[439500] = {217345,13,300,300,345,{8923,8925},{4,1}}, -- Sebacious Poison
 	[1214168] = {234444,13,300,300,345,{5173,8925},{7,1}}, -- Occult Poison II
+	[471400] = {232611,10,300,310,320,{8151,8152,14344,18256},{3,3,2,1}}, -- Formula: Magnificent Trollshine
 }
 if AtlasLoot:GameVersion_GE(AtlasLoot.BC_VERSION_NUM) then
     PROFESSION_DATA.BCC = {

@@ -793,6 +793,10 @@ data["ShadowfangKeep"] = {
 			ContentPhase = 6,
 			specialType = "scourgeInvasion",
 			ExtraList = true,
+			[SOD_DIFF] = {
+				{ 1, 238349 }, -- Abomination Skin Leggings
+				{ 2, 238348 }, -- The Axe of Severing
+			},
 			[NORMAL_DIFF] = {
 				{ 1,  23173 }, -- Abomination Skin Leggings
 				{ 2,  23171 }, -- The Axe of Severing
@@ -1662,6 +1666,11 @@ data["ScarletMonasteryGraveyard"] = {
 			ContentPhase = 6,
 			specialType = "scourgeInvasion",
 			ExtraList = true,
+			[SOD_DIFF] = {
+				{ 1, 238352 }, -- Scorn's Icy Choker
+				{ 2, 238351 }, -- The Frozen Clutch
+				{ 3, 238350 }, -- Scorn's Focal Dagger
+			},
 			[NORMAL_DIFF] = {
 				{ 1, 23169 }, -- Scorn's Icy Choker
 				{ 2, 23170 }, -- The Frozen Clutch
@@ -2157,6 +2166,10 @@ data["RazorfenDowns"] = {
 			ContentPhase = 6,
 			specialType = "scourgeInvasion",
 			ExtraList = true,
+			[SOD_DIFF] = {
+				{ 1, 238353 }, -- Mantle of Lady Falther'ess
+				{ 2, 238354 }, -- Lady Falther'ess' Finger
+			},
 			[NORMAL_DIFF] = {
 				{ 1,  23178 }, -- Mantle of Lady Falther'ess
 				{ 2,  23177 }, -- Lady Falther'ess' Finger
@@ -5138,9 +5151,9 @@ data["DireMaulWest"] = {
 			specialType = "scourgeInvasion",
 			ExtraList = true,
 			[SOD_DIFF] = {
-				{ 1, 23127 }, -- Cloak of Revanchion
-				{ 2, 23129 }, -- Bracers of Mending
-				{ 3, 23128 }, -- The Shadow's Grasp
+				{ 1, 238364 }, -- Cloak of Revanchion
+				{ 2, 238362 }, -- Bracers of Mending
+				{ 3, 238363 }, -- The Shadow's Grasp
 			},
 			[NORMAL_DIFF] = {
 				{ 1, 23127 }, -- Cloak of Revanchion
@@ -6220,9 +6233,9 @@ data["Scholomance"] = {
 			specialType = "scourgeInvasion",
 			ExtraList = true,
 			[SOD_DIFF] = {
-				{ 1, 23132 }, -- Lord Blackwood's Blade
-				{ 2, 23156 }, -- Blackwood's Thigh
-				{ 3, 23139 }, -- Lord Blackwood's Buckler
+				{ 1,  238361 }, -- Lord Blackwood's Blade
+				{ 2,  238358 }, -- Blackwood's Thigh
+				{ 3,  238360 }, -- Lord Blackwood's Buckler
 			},
 			[NORMAL_DIFF] = {
 				{ 1, 23132 }, -- Lord Blackwood's Blade
@@ -6909,9 +6922,9 @@ data["Stratholme"] = {
 			AtlasMapBossID = 2,
 			ContentPhase = 6,
 			[SOD_DIFF] = {
-				{ 1, 23126 }, -- Waistband of Balzaphon
-				{ 2, 23125 }, -- Chains of the Lich
-				{ 3, 23124 }, -- Staff of Balzaphon
+				{ 1,  238356 }, -- Waistband of Balzaphon
+				{ 2,  238355 }, -- Chains of the Lich
+				{ 3,  238357 }, -- Staff of Balzaphon
 			},
 			[NORMAL_DIFF] = {
 				{ 1, 23126 }, -- Waistband of Balzaphon
@@ -8211,43 +8224,114 @@ data["Karazhan Crypts"] = {
 	ContentType = DUNGEON_CONTENT,
 	LevelRange = {60, 60, 60},
 	items = {
-		{ -- KaraLoot
-			name = AL["Loot"],
-			[SOD_DIFF] = {
-				{ 1, 235891}, -- Ol' Reliable
-				{ 2, 235889}, -- Servant's Quarterstaff
-				{ 3, 235892}, -- Darkrider's Spine
-				{ 4, 235888}, -- Clobberclub
-				{ 5, 235894}, -- Doomsayer's Demise
-				{ 6, 235890}, -- Shadow Weaver's Needle
-				{ 7, 235868}, -- Bulwark of Ire
-				{ 8, 235893}, -- Shadowbound Grimoire
-				{ 10, 235873}, -- Crypt's Keepers
-				{ 11, 235883}, -- Well Diver's Stumble
-				{ 12, 235871}, -- Clutching Death Helm
-				{ 13, 235877}, -- Fanatic's Gauntlets
-				{ 14, 236645}, -- Lightwielder's Gauntlets
-				{ 15, "INV_Box_01", nil, AL["Boss Loot Not Yet Confirmed"], nil },
-				{ 16, 235872}, -- Stalker's Bands
-				{ 17, 235869}, -- The Master's Cowl
-				{ 18, 235881}, -- Dreaded Treaders
-				{ 19, 235875}, -- Gravedigger's Gloves
-				{ 21, 235876}, -- Sinner's Handguards
-				{ 22, 235870}, -- Battlechain Helm
-				{ 23, 235882}, -- Clattering Steps
-				{ 24, 235879}, -- Nimble Links
-				{ 26, 235878}, -- Malefic Belt
-				{ 27, 235874}, -- Cultist's Handwraps
-				{ 28, 236642}, -- Mender's Handwraps
-				{ 29, 235880}, -- Pauper Soles
-				{ 30, "INV_Box_01", nil, AL["Continued-->"], nil },
-				{ 101, 235885}, -- Ghastly Ring
-				{ 102, 235884}, -- Spectral Signet
-				{ 103, 235887}, -- Barian's Choker
-				{ 104, 235886}, -- Kaigy's Clasp
+		{ -- The Failed Apprentices
+            name = AL["The Failed Apprentices"],
+            [SOD_DIFF] = {
+                { 1, "INV_Box_01", nil, AL["The Warden"], nil },
+				{ 2,  236707 }, -- Tunic of Undead Slaying
+				{ 3,  236727 }, -- Tunic of Undead Cleansing
+				{ 4,  236730 }, -- Tunic of Undead Purification
+				{ 5, 237011 }, -- Key
+				{ 7, "INV_Box_01", nil, AL["Barian Maryla"], nil },
+				{ 8, 235887 }, -- Barian's Choker
+				{ 9, 235880 }, -- Pauper Soles
+				{ 10, 235894 }, -- Doomsayer's Demise
+				{ 11, 235873 }, -- Crypt's Keepers
+				{ 12, 235879 }, -- Nimble Links
+				{ 16, "INV_Box_01", nil, AL["Kaigy Marylaa"], nil },
+				{ 17, 235886 }, -- Kaigy's Clasp
+				{ 18, 235880 }, -- Pauper Soles
+				{ 19, 235894 }, -- Doomsayer's Demise
+				{ 20, 235873 }, -- Crypt's Keepers
+				{ 21, 235879 }, -- Nimble Links
+				{ 23, "INV_Box_01", nil, AL["Sairuh Marylaa"], nil },
+				{ 24, 236782 }, -- Sairuh's Collar
+				{ 25, 235880 }, -- Pauper Soles
+				{ 26, 235894 }, -- Doomsayer's Demise
+				{ 27, 235873 }, -- Crypt's Keepers
+				{ 28, 235879 }, -- Nimble Links
+            },
+        },
+
+        { -- Harbinger of Sin
+            name = AL["Harbinger of Sin"],
+            [SOD_DIFF] = {
+                { 1, 235891 }, -- Ol' Reliable
+                { 2, 235890 }, -- Shadow Weaver's Needle
+                { 3, 235869 }, -- The Master's Cowl
+                { 4, 235882 }, -- Clattering Steps
+            },
+        },
+        { -- Opera Cache
+            name = AL["Opera Cache"],
+            [SOD_DIFF] = {
+                { 1, 235889 }, -- Servant's Quarterstaff
+                { 2, 235883 }, -- Well Diver's Stumble
+				{ 3, 235878 }, -- Malefic Belt
+				{ 4, 235893 }, -- Shadowbound Grimoire
+            },
+        },
+        { -- Creeping Malison Spider
+            name = AL["Creeping Malison"],
+            [SOD_DIFF] = {
+                { 1, 235888 }, -- Clobberclub
+                { 2, 235885 }, -- Ghastly Ring
+                { 3, 235884 }, -- Spectral Signet
+				{ 4, 235881 }, -- Dreaded Treaders
+            },
+        },
+
+		{ -- Kharon (Also all the other loot)
+		name = AL["Kharon"],
+		[SOD_DIFF] = {
+				{ 1, 235875 }, -- Gravedigger's Gloves
+				{ 2, 235874 }, -- Cultist's Handwraps
+				{ 3, 235877 }, -- Fanatic's Gauntlets
+				{ 4, 236645 }, -- Lightwielder's Gauntlets
+				{ 5, 235876 }, -- Sinner's Handguards
+				{ 6, 236642 }, -- Mender's Handwraps
+				{ 7, 236643 }, -- Nightwatcher's Gloves
+				{ 8, 236644 }, -- Mourner's Handguards
+				{ 9, 235878 }, -- Malefic Belt
+				{ 10, 235870 }, -- Battlechain Helm
+				{ 11, 235893 }, -- Shadowbound Grimoire
+				{ 12, 235883 }, -- Well Diver's Stumble
+				{ 13, 235889 }, -- Servant's Quarterstaff
+				{ 16, "INV_Box_01", nil, AL["Shared Loot"], nil },
+				{ 17, 235881 }, -- Dreaded Treaders
+				{ 18, 235880 }, -- Pauper Soles
+				{ 19, 235879 }, -- Nimble Links
+				{ 20, 235872 }, -- Stalker's Bands
+				{ 21, 235869 }, -- The Master's Cowl
+				{ 22, 235871 }, -- Clutching Death Helm
+				{ 23, 235887 }, -- Barian's Choker
+				{ 24, 235882 }, -- Clattering Steps
+				{ 25, 235885 }, -- Ghastly Ring
+				{ 26, 235868 }, -- Bulwark of Ire
+				{ 27, 235892 }, -- Darkrider's Spine
+				{ 28, 235886 }, -- Kaigy's Clasp
+				{ 29, 235891 }, -- Ol' Reliable
+				{ 30, "INV_Box_01", nil, AL["Continued->"], nil },
+				{ 101, 235888 }, -- Clobberclub
+				{ 102, 235894 }, -- Doomsayer's Demise
+				{ 103, 235890 }, -- Shadow Weaver's Needle
+				{ 104, 235884 }, -- Spectral Signet
+				{ 105, 236782 }, -- Sairuh's Collar
+				{ 106, 235873 }, -- Crypt's Keepers
 			},
 		},
-	},
+
+		        { -- Dark Rider
+            name = AL["Dark Rider"],
+            [SOD_DIFF] = {
+                { 1, 235892 }, -- Darkrider's Spine
+                { 2, 235868 }, -- Bulwark of Ire
+                { 3, 235871 }, -- Clutching Death Helm
+				{ 4, 235872 }, -- Stalker's Bands
+            },
+        },
+
+    },
 }
 
 data["Zul'Gurub"] = {
@@ -10494,7 +10578,9 @@ data["Naxxramas"] = {
 				{ 10, 236320 }, -- Warmth of Forgiveness
 				{ 11, 236322 }, -- Soulstring
 				{ 12, 236321 }, -- Maul of the Redeemed Crusader
-				{ 13, 236317 }, -- Corrupted Ashbringer
+				{ 13, 237512 }, -- Blade of Inquisition
+				{ 16, "INV_Box_01", nil, AL["Unknown?"], nil },
+				{ 17, 236317 }, -- Corrupted Ashbringer
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  22726 }, -- Splinter of Atiesh
@@ -10587,6 +10673,7 @@ data["Naxxramas"] = {
 				{ 6,  236301 }, -- Digested Hand of Power
 				{ 7,  236296 }, -- Death's Bargain
 				{ 8,  236299 }, -- Claymore of Unholy Might
+				{ 9,  237577 }, -- Totem of Unholy Might
 				{ 16,  236240 }, -- Desecrated Shoulderpads
 				{ 17,  236245 }, -- Desecrated Bindings
 				{ 18,  236244 }, -- Desecrated Belt
