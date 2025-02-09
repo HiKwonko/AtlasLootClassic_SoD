@@ -8206,49 +8206,119 @@ data["DemonFallCanyon"] = {
 }
 
 data["Karazhan Crypts"] = {
-	MapID = 16074,
-	InstanceID = 16074,
-	ContentType = DUNGEON_CONTENT,
-	LevelRange = {60, 60, 60},
-	items = {
-		{ -- KaraLoot
-			name = AL["Loot"],
-			[SOD_DIFF] = {
-				{ 1, 235891}, -- Ol' Reliable
-				{ 2, 235889}, -- Servant's Quarterstaff
-				{ 3, 235892}, -- Darkrider's Spine
-				{ 4, 235888}, -- Clobberclub
-				{ 5, 235894}, -- Doomsayer's Demise
-				{ 6, 235890}, -- Shadow Weaver's Needle
-				{ 7, 235868}, -- Bulwark of Ire
-				{ 8, 235893}, -- Shadowbound Grimoire
-				{ 10, 235873}, -- Crypt's Keepers
-				{ 11, 235883}, -- Well Diver's Stumble
-				{ 12, 235871}, -- Clutching Death Helm
-				{ 13, 235877}, -- Fanatic's Gauntlets
-				{ 14, 236645}, -- Lightwielder's Gauntlets
-				{ 15, "INV_Box_01", nil, AL["Boss Loot Not Yet Confirmed"], nil },
-				{ 16, 235872}, -- Stalker's Bands
-				{ 17, 235869}, -- The Master's Cowl
-				{ 18, 235881}, -- Dreaded Treaders
-				{ 19, 235875}, -- Gravedigger's Gloves
-				{ 21, 235876}, -- Sinner's Handguards
-				{ 22, 235870}, -- Battlechain Helm
-				{ 23, 235882}, -- Clattering Steps
-				{ 24, 235879}, -- Nimble Links
-				{ 26, 235878}, -- Malefic Belt
-				{ 27, 235874}, -- Cultist's Handwraps
-				{ 28, 236642}, -- Mender's Handwraps
-				{ 29, 235880}, -- Pauper Soles
-				{ 30, "INV_Box_01", nil, AL["Continued-->"], nil },
-				{ 101, 235885}, -- Ghastly Ring
-				{ 102, 235884}, -- Spectral Signet
-				{ 103, 235887}, -- Barian's Choker
-				{ 104, 235886}, -- Kaigy's Clasp
+    MapID = 16074,
+    InstanceID = 16074,
+    ContentType = DUNGEON_CONTENT,
+    LevelRange = {60, 60, 60},
+    items = {
+
+
+		{ -- The Failed Apprentices
+            name = AL["The Failed Apprentices"],
+            [SOD_DIFF] = {
+                { 1, "INV_Box_01", nil, AL["The Warden"], nil },
+				{ 2, "INV_Chest_Chain_08", nil, AL["Random chest from invasions"], nil },
+				{ 3, 237011 }, -- Key
+				{ 5, "INV_Box_01", nil, AL["Barian Maryla"], nil },
+				{ 6, 235887 }, -- Barian's Choker
+				{ 7, 235880 }, -- Pauper Soles
+				{ 8, 235894 }, -- Doomsayer's Demise
+				{ 9, 235873 }, -- Crypt's Keepers
+				{ 10, 235879 }, -- Nimble Links
+				{ 16, "INV_Box_01", nil, AL["Kaigy Marylaa"], nil },
+				{ 17, 235886 }, -- Kaigy's Clasp
+				{ 18, 235880 }, -- Pauper Soles
+				{ 19, 235894 }, -- Doomsayer's Demise
+				{ 20, 235873 }, -- Crypt's Keepers
+				{ 21, 235879 }, -- Nimble Links
+				{ 23, "INV_Box_01", nil, AL["Sairuh Marylaa"], nil },
+				{ 24, 236782 }, -- Sairuh's Collar
+				{ 25, 235880 }, -- Pauper Soles
+				{ 26, 235894 }, -- Doomsayer's Demise
+				{ 27, 235873 }, -- Crypt's Keepers
+				{ 28, 235879 }, -- Nimble Links
+            },
+        },
+
+        { -- Harbinger of Sin
+            name = AL["Harbinger of Sin"],
+            [SOD_DIFF] = {
+                { 1, 235891 }, -- Ol' Reliable
+                { 2, 235890 }, -- Shadow Weaver's Needle
+                { 3, 235869 }, -- The Master's Cowl
+                { 4, 235882 }, -- Clattering Steps
+            },
+        },
+        { -- Opera Cache
+            name = AL["Opera Cache"],
+            [SOD_DIFF] = {
+                { 1, 235889 }, -- Servant's Quarterstaff
+                { 2, 235883 }, -- Well Diver's Stumble
+				{ 3, 235878 }, -- Malefic Belt
+				{ 4, 235893 }, -- Shadowbound Grimoire
+            },
+        },
+        { -- Creeping Malison Spider
+            name = AL["Creeping Malison"],
+            [SOD_DIFF] = {
+                { 1, 235888 }, -- Clobberclub
+                { 2, 235885 }, -- Ghastly Ring
+                { 3, 235884 }, -- Spectral Signet
+				{ 4, 235881 }, -- Dreaded Treaders
+            },
+        },
+
+		{ -- Kharon (Also all the other loot)
+		name = AL["Kharon (Also all the other loot)"],
+		[SOD_DIFF] = {
+				{ 1, 235875 }, -- Gravedigger's Gloves
+				{ 2, 235874 }, -- Cultist's Handwraps
+				{ 3, 235877 }, -- Fanatic's Gauntlets
+				{ 4, 236645 }, -- Lightwielder's Gauntlets
+				{ 5, 235876 }, -- Sinner's Handguards
+				{ 6, 236642 }, -- Mender's Handwraps
+				{ 7, 236643 }, -- Nightwatcher's Gloves
+				{ 8, 235002 }, -- Mourner's Handguards (placeholder)
+				{ 9, 235878 }, -- Malefic Belt
+				{ 10, 235879 }, -- Nimble Links
+				{ 11, 235872 }, -- Stalker's Bands
+				{ 12, 235871 }, -- Clutching Death Helm
+				{ 13, 235873 }, -- Crypt's Keepers
+				{ 14, 235881 }, -- Dreaded Treaders
+				{ 15, 235880 }, -- Pauper Soles
+				{ 16, 235870 }, -- Rattlechain Helm
+				{ 17, 235893 }, -- Shadowbound Grimoire
+				{ 18, 235869 }, -- The Master's Cowl
+				{ 19, 235883 }, -- Well Diver's Stumble
+				{ 20, 235887 }, -- Barian's Choker
+				{ 21, 235882 }, -- Clattering Steps
+				{ 22, 235885 }, -- Ghastly Ring
+				{ 23, 235868 }, -- Bulwark of Ire
+				{ 24, 235892 }, -- Darkrider's Spine
+				{ 25, 235886 }, -- Kaigy's Clasp
+				{ 26, 235891 }, -- Ol' Reliable
+				{ 27, 235888 }, -- Clobberclub
+				{ 28, 235894 }, -- Doomsayer's Demise
+				{ 29, 235889 }, -- Servant's Quarterstaff
+				{ 30, 235890 }, -- Shadow Weaver's Needle
+				{ 31, 235884 }, -- Spectral Signet
+				{ 32, 236782 }, -- Sairuh's Collar
 			},
 		},
-	},
+	
+		        { -- Dark Rider
+            name = AL["Dark Rider"],
+            [SOD_DIFF] = {
+                { 1, 235892 }, -- Darkrider's Spine
+                { 2, 235868 }, -- Bulwark of Ire
+                { 3, 235871 }, -- Clutching Death Helm
+				{ 4, 235872 }, -- Stalker's Bands
+            },
+        },
+
+    },
 }
+
 
 data["Zul'Gurub"] = {
 	MapID = 1977,
@@ -10494,7 +10564,10 @@ data["Naxxramas"] = {
 				{ 10, 236320 }, -- Warmth of Forgiveness
 				{ 11, 236322 }, -- Soulstring
 				{ 12, 236321 }, -- Maul of the Redeemed Crusader
-				{ 13, 236317 }, -- Corrupted Ashbringer
+				{ 16, 237512 }, -- BOIBLADE
+
+				{ 29, "INV_drink_15", nil, AL["GM WEAPON???"], nil },
+				{ 30, 236317 }, -- Corrupted Ashbringer
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  22726 }, -- Splinter of Atiesh
@@ -10587,6 +10660,7 @@ data["Naxxramas"] = {
 				{ 6,  236301 }, -- Digested Hand of Power
 				{ 7,  236296 }, -- Death's Bargain
 				{ 8,  236299 }, -- Claymore of Unholy Might
+				{ 9,  237577 }, -- TUM
 				{ 16,  236240 }, -- Desecrated Shoulderpads
 				{ 17,  236245 }, -- Desecrated Bindings
 				{ 18,  236244 }, -- Desecrated Belt
