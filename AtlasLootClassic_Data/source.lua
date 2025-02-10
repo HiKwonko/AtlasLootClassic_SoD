@@ -52,7 +52,7 @@ local SOURCE_DATA = {
 "Naxxramas",
 "BlackfathomDeeps2",
 "Gnomeregan2",
-"TheTempleOfAtal'Hakkar2"
+"TheTempleOfAtal'Hakkar2",
 "Karazhan Crypts" --37
 },
 ["ItemData"] = {
