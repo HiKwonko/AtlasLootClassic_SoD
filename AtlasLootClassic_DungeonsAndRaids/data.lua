@@ -10313,7 +10313,8 @@ data["Naxxramas"] = {
 				{ 10, 236255 }, -- Wristguards of Vengeance
 				{ 11, 236259 }, -- Band of Unanswered Prayers
 				{ 12, 236257 }, -- Gem of Nerubis
-				{ 15, "INV_Box_01", nil, AL["*Boss Loot Unconfirmed*"], nil },
+				{ 14, 236226 }, -- Pauldrons of Elemental Fury
+				{ 15, 236228 }, -- Spaulders of the Grand Grusader
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  22726 }, -- Splinter of Atiesh
@@ -10346,6 +10347,7 @@ data["Naxxramas"] = {
 				{ 10, 236260 }, -- Icebane Pauldrons
 				{ 11, 236264 }, -- The Widow's Embrace
 				{ 12, 236263 }, -- Widow's Remorse
+				{ 14, 236223 }, -- Ring of the Eternal Flame
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  22726 }, -- Splinter of Atiesh
@@ -10413,6 +10415,8 @@ data["Naxxramas"] = {
 				{ 12, 236271 }, -- Libram of Light
 				{ 13, 236276 }, -- Totem of Flowing Water
 				{ 14, 236270 }, -- Hatchet of Sundered Bone
+				{ 23, 236230 }, -- Leggings of Elemental Fury
+				{ 24, 236229 }, -- Leggings of the Grand Crusader
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  22726 }, -- Splinter of Atiesh
@@ -10447,6 +10451,7 @@ data["Naxxramas"] = {
 				{ 10, 237275 }, -- Icebane Helmet
 				{ 11, 236277 }, -- Necklace of Necropsy
 				{ 12, 236280 }, -- Legplates of Carnage
+				{ 14, 236219 }, -- Harbinger of Doom
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  22726 }, -- Splinter of Atiesh
@@ -10513,6 +10518,7 @@ data["Naxxramas"] = {
 				{ 11, 236308 }, -- Idol of Longevity
 				{ 12, 236310 }, -- Wand of the Whispering Dead
 				{ 13, 236312 }, -- Iblis, Blade of the Fallen Seraph
+				{ 15, 236220 }, -- Necro-Knight's Garb
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  22726 }, -- Splinter of Atiesh
@@ -10546,6 +10552,8 @@ data["Naxxramas"] = {
 				{ 10, 236316 }, -- Sadist's Collar
 				{ 11, 236313 }, -- The Soul Harvester's Bindings
 				{ 12, 236314 }, -- Boots of Displacement
+				{ 14, 236225 }, -- Girdle of Elemental Fury
+				{ 15, 236227 }, -- Belt of the Grand Crusader
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  22726 }, -- Splinter of Atiesh
@@ -10614,6 +10622,7 @@ data["Naxxramas"] = {
 				{ 10, 236290}, -- Wand of Fates
 				{ 11, 236288 }, -- The Plague Bearer
 				{ 12, 236287 }, -- Severance
+				{ 14, 236222 }, -- Ghoul Skin Tunic
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  22726 }, -- Splinter of Atiesh
@@ -10645,6 +10654,7 @@ data["Naxxramas"] = {
 				{ 10, 236293 }, -- Toxin Injector
 				{ 11, 236292 }, -- Midnight Haze
 				{ 12, 236297 }, -- The End of Dreams
+				{ 14, 236221 }, -- Misplaced Servo Arm
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  22726 }, -- Splinter of Atiesh
@@ -10674,18 +10684,19 @@ data["Naxxramas"] = {
 				{ 7,  236296 }, -- Death's Bargain
 				{ 8,  236299 }, -- Claymore of Unholy Might
 				{ 9,  237577 }, -- Totem of Unholy Might
+				{ 11,  236224 }, -- Stygian Buckler
 				{ 16,  236240 }, -- Desecrated Shoulderpads
 				{ 17,  236245 }, -- Desecrated Bindings
 				{ 18,  236244 }, -- Desecrated Belt
 				{ 19,  236239 }, -- Desecrated Sandals
-				{ 20,  236254 }, -- Desecrated Spaulders
-				{ 21,  236247 }, -- Desecrated Wristguards
-				{ 22,  236252 }, -- Desecrated Girdle
-				{ 23,  236248 }, -- Desecrated Boots
-				{ 24,  236237 }, -- Desecrated Pauldrons
-				{ 25,  236235 }, -- Desecrated Bracers
-				{ 26,  236232 }, -- Desecrated Waistguard
-				{ 27,  236234 }, -- Desecrated Sabatons
+				{ 21,  236254 }, -- Desecrated Spaulders
+				{ 22,  236247 }, -- Desecrated Wristguards
+				{ 23,  236252 }, -- Desecrated Girdle
+				{ 24,  236248 }, -- Desecrated Boots
+				{ 26,  236237 }, -- Desecrated Pauldrons
+				{ 27,  236235 }, -- Desecrated Bracers
+				{ 28,  236232 }, -- Desecrated Waistguard
+				{ 29,  236234 }, -- Desecrated Sabatons
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  22726 }, -- Splinter of Atiesh
@@ -10759,6 +10770,7 @@ data["Naxxramas"] = {
 				{ 8,  236330 }, -- Sapphiron's Right Eye
 				{ 9,  236336 }, -- The Face of Death
 				{ 10, 236338 }, -- Claw of the Frost Wyrm
+				{ 12, 236335 }, -- Fists of the Unrelenting
 				{ 16, 236325 }, -- Fortitude of the Scourge
 				{ 17, 236326 }, -- Might of the Scourge
 				{ 18, 236324 }, -- Power of the Scourge
@@ -10803,7 +10815,10 @@ data["Naxxramas"] = {
 				{ 13, 236350 }, -- The Phylactery of Kel'Thuzad
 				{ 15, 22733 }, -- Staff Head of Atiesh
 				{ 16, 237381 }, -- Desecrated Ring
-				{ 30, "INV_Box_01", nil, AL["Loot Not Yet Confirmed"], nil },
+				{ 18, 236665 }, -- Reins of Famine
+				{ 19, 236664 }, -- Reins of Death
+				{ 20, 236663 }, -- Reins of Conquest
+				{ 21, 236662 }, -- Reins of War
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  23057 }, -- Gem of Trapped Innocents
@@ -10834,24 +10849,12 @@ data["Naxxramas"] = {
 			name = AL["Trash"],
 			ExtraList = true,
 			[SOD_DIFF] = {
-				{ 1,  236226 }, -- Pauldrons of Elemental Fury
-				{ 2,  236228 }, -- Spaulders of the Grand Crusader
-				{ 3,  236220 }, -- Necro-Knight's Garb
-				{ 4,  236222 }, -- Ghoul Skin Tunic
-				{ 5,  236225 }, -- Girdle of Elemental Fury
-				{ 6,  236227 }, -- Belt of the Grand Crusader
-				{ 7,  236230 }, -- Leggings of Elemental Fury
-				{ 8,  236229 }, -- Leggings of the Grand Crusader
-				{ 9,  236223 }, -- Ring of the Eternal Flame
-				{ 10, 236224 }, -- Stygian Buckler
-				{ 11, 236219 }, -- Harbinger of Doom
-				{ 12, 236221 }, -- Misplaced Servo Arm
-				{ 16, 22376 }, -- Wartorn Cloth Scrap
-				{ 17, 22373 }, -- Wartorn Leather Scrap
-				{ 18, 22374 }, -- Wartorn Chain Scrap
-				{ 19, 22375 }, -- Wartorn Plate Scrap
-				{ 21, 237773 }, -- Word of Thawing
-				{ 22, 236656 }, -- Frozen Rune
+				{ 1, 22376 }, -- Wartorn Cloth Scrap
+				{ 2, 22373 }, -- Wartorn Leather Scrap
+				{ 3, 22374 }, -- Wartorn Chain Scrap
+				{ 4, 22375 }, -- Wartorn Plate Scrap
+				{ 6, 237773 }, -- Word of Thawing
+				{ 7, 236656 }, -- Frozen Rune
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  23664 }, -- Pauldrons of Elemental Fury

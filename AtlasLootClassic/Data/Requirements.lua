@@ -3015,6 +3015,11 @@ ReqData_RAW.CLASSIC = {
 	[236242] = {280}, -- Chest
 	[236240] = {280}, -- Shoulders
 	[236241] = {280}, -- Helm
+	[236226] = {64},
+	[236228] = {2},
+	[236230] = {64},
+	[236229] = {2},
+	[236227] = {2},
 }
 
 if AtlasLoot:GameVersion_GE(AtlasLoot.BC_VERSION_NUM) then
