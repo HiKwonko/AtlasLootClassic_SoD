@@ -194,6 +194,40 @@ local T3_SET = {
 	},
 }
 
+local T3_5_SET = {
+	name = format(AL["Tier %s Sets"], "3.5"),
+	ExtraList = true,
+	LoadDifficulty = LOAD_DIFF,
+	TableType = SET_ITTYPE,
+	ContentPhase = 8,
+	IgnoreAsSource = true,
+	[SOD_DIFF] = {
+		{ 1, 1945 }, -- Druid
+		{ 2, 1946 }, -- Druid
+		{ 3, 1947 }, -- Druid
+		{ 4, 1948 }, -- Druid
+		{ 6, 1936 }, -- Hunter
+		{ 7, 1937 }, -- Hunter
+		{ 9, 1943 }, -- Mage
+		{ 10, 1944 }, -- Mage
+		{ 12, 1949 }, -- Shaman
+		{ 13, 1950 }, -- Shaman
+		{ 14, 1951 }, -- Shaman
+		{ 15, 1952 }, -- Shaman
+		{ 16, 1940 }, -- Paladin
+		{ 17, 1941 }, -- Paladin
+		{ 18, 1942 }, -- Paladin
+		{ 20, 1938 }, -- Priest
+		{ 21, 1939 }, -- Priest
+		{ 23, 1934 }, -- Rogue
+		{ 24, 1935 }, -- Rogue
+		{ 26, 1953 }, -- Warlock
+		{ 27, 1954 }, -- Warlock
+		{ 29, 1932 }, -- Warrior
+		{ 30, 1933 }, -- Warrior
+	},
+}
+
 local AQ_SCARABS = { -- AQ40Trash2
 	name = AL["Ahn'Qiraj scarabs"],
 	ExtraList = true,
@@ -10587,8 +10621,6 @@ data["Naxxramas"] = {
 				{ 11, 236322 }, -- Soulstring
 				{ 12, 236321 }, -- Maul of the Redeemed Crusader
 				{ 13, 237512 }, -- Blade of Inquisition
-				{ 16, "INV_Box_01", nil, AL["Unknown?"], nil },
-				{ 17, 236317 }, -- Corrupted Ashbringer
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  22726 }, -- Splinter of Atiesh
@@ -10878,5 +10910,178 @@ data["Naxxramas"] = {
 			},
 		},
 		T3_SET,
+	},
+}
+
+data["The Scarlet Enclave"] = {
+	MapID = 16236,
+	ContentType = RAID_CONTENT,
+	ContentPhase = 8,
+	LevelRange = GetForVersion({60, 60, 60},{60, 60, 60}),
+	items = {
+		{ 
+			name = AL["Balnazzar"],
+			npcID = 240811,
+			Level = 999,
+			DisplayIDs = {{129113}},
+			[SOD_DIFF] = {
+			{ 1, 239719 }, -- Consecrated Bindings
+			{ 2, 239759 }, -- Consecrated Bracers
+			{ 3, 239722 }, -- Consecrated Wristguards
+			{ 5, 242365 }, -- Wing of Balnazzar
+			{ 12, "INV_Box_01", nil, AL["More drop data needed,"], nil },
+			{ 13, "INV_Box_01", nil, AL["Will be updated soon :)"], nil },
+			{ 16, 241179 }, -- Leggings of Catastrophe
+			{ 17, 241178 }, -- Stalwart Pain Plate
+			{ 18, 241184 }, -- Savior Sandals
+			{ 19, 241157 }, -- Scarlet Chestplate
+			{ 20, 241152 }, -- Dawnwrought Shoulders
+			{ 21, 241176 }, -- Diesalven's Demise
+			{ 22, 241171 }, -- Gloves of Departed Souls
+			{ 23, 240922 }, -- Deception
+			{ 24, 241017 }, -- Demon's Folly
+			{ 25, 241018 }, -- Nathrezim Heart
+			{ 26, 240839 }, -- Thal'kituum, the Unseen Guest
+			{ 27, 241028 }, -- Nathrezim Loop
+			},
+		},
+		{ 
+			name = AL["High Commander Beatrix"],
+			npcID = 240812,
+			Level = 999,
+			DisplayIDs = {{127686}},
+			[SOD_DIFF] = {
+			{ 1, 239718 }, -- Consecrated Belt
+			{ 2, 239760 }, -- Consecrated Waistguard
+			{ 3, 239756 }, -- Consecrated Girdle
+			{ 5, 239196 }, -- Ruined Lightforged Blade
+			{ 16, 240997 }, -- Fratlet's Spur
+			{ 17, 241077 }, -- Cardinal's Chapeau
+			{ 18, 241159 }, -- Monastery Garb
+			{ 19, 241173 }, -- High Wizard Wrap
+			{ 20, 241177 }, -- Kilt of the Scarlet Arcanist
+			{ 21, 241076 }, -- Cowl of the Covenant
+			{ 22, 241074 }, -- Helm of the Red Crusade
+			{ 23, 241170 }, -- Enclave Protectors
+			{ 24, 241068 }, -- Stiltz's Standard
+			{ 25, 241027 }, -- Shield Warden's Guard
+			{ 26, 241026 }, -- Cardinal's Shawl
+			},
+		},
+		{ 
+			name = AL["Solistrasza"],
+			npcID = 238954,
+			Level = 999,
+			DisplayIDs = {{126697}},
+			[SOD_DIFF] = {
+			{ 1, 239714 }, -- Consecrated Circlet
+			{ 2, 239707 }, -- Consecrated Helmet
+			{ 3, 239729 }, -- Consecrated Headpiece
+			{ 5, 242364 }, -- Mature Light Dragon Sinew
+			{ 16, 236317 }, -- Vis'era the Gutrender
+			{ 17, 241002 }, -- Remnants of the Red
+			{ 18, 240174 }, -- Solistra, Fang of the First Light
+			{ 19, 241180 }, -- Lightscale Leggings
+			{ 20, 241163 }, -- Sunblaze Bracers
+			{ 21, 241186 }, -- Polished Scarlet Mail Boots
+			{ 22, 241166 }, -- Dawnstripped Bands
+			{ 23, 241022 }, -- Dawnbringer's Cloak
+			{ 24, 241073 }, -- Touch of Light
+			{ 25, 241034 }, -- Heart of Light
+			{ 26, 241168 }, -- Sunblaze Grips
+			},
+		},
+		{ 
+			name = AL["Mason the Echo"],
+			npcID = 241021,
+			Level = 999,
+			DisplayIDs = {{127818}},
+			[SOD_DIFF] = {
+			{ 1, 239716 }, -- Consecrated Gloves
+			{ 2, 239762 }, -- Consecrated Gauntlets
+			{ 3, 239730 }, -- Consecrated Handguards
+			{ 16, 241011 }, -- Greatstaff of Fealty
+			{ 17, 240925 }, -- Experiment-800M
+			{ 18, 240843 }, -- Starter's Pistol
+			{ 19, 241183 }, -- Ashwalkers
+			{ 20, 241181 }, -- Dawnworn Chain Leggings
+			{ 21, 242793 }, -- Portable Cannon
+			{ 22, 241030 }, -- Mason's Fraternity Ring
+			{ 23, 241023 }, -- Drape of the Dastardly
+			{ 24, 241071 }, -- Talisman of the Scarlet Scoundrel
+			{ 25, 239060 }, -- Will of the Mountain
+			{ 26, 241187 }, -- Crimson Wartreads
+			},
+		},
+		{ 
+			name = AL["Alexei the Beastlord"],
+			npcID = 240974,
+			Level = 999,
+			DisplayIDs = {{128013}},
+			[SOD_DIFF] = {
+			{ 1, 239710 }, -- Consecrated Sandals
+			{ 2, 239706 }, -- Consecrated Sabatons
+			{ 3, 239726 }, -- Consecrated Boots
+			{ 16, 240924 }, -- Poleaxe of the Beast
+			{ 17, 240849 }, -- Staff of the Glade
+			{ 18, 241079 }, -- Weight of the World
+			{ 19, 241162 }, -- Sunblessed Leathers
+			{ 20, 241158 }, -- Chains of the Abandoned
+			{ 21, 241038 }, -- Sir Dornel's Didgeridoo
+			{ 22, 241069 }, -- Choke Chain
+			{ 23, 241167 }, -- Prisoner Shackles
+			{ 24, 241164 }, -- Scrapped Argent Leathers
+			},
+		},
+		{ 
+			name = AL["Reborn Council"],
+			npcID = 241768,
+			Level = 999,
+			DisplayIDs = {{2041}},
+			[SOD_DIFF] = {
+			{ 1, 239712 }, -- Consecrated Shoulderpads
+			{ 2, 239708 }, -- Consecrated Pauldrons
+			{ 3, 239758 }, -- Consecrated Spaulders
+			{ 5, 239117 }, -- Crusader's Chalice
+			{ 16, 241008 }, -- Condemnation
+			{ 17, 241003 }, -- Mirage, Rod of Illusion
+			{ 18, 241075 }, -- Raging Destroyer's Helm
+			{ 19, 241070 }, -- Hope of Herod
+			{ 20, 240853 }, -- Queensfall
+			},
+		},
+		{ 
+			name = AL["Lillian Voss"],
+			npcID = 243021,
+			Level = 999,
+			DisplayIDs = {{128659}},
+			[SOD_DIFF] = {
+			{ 1, 239721 }, -- Consecrated Leggings
+			{ 2, 239709 }, -- Consecrated Legplates
+			{ 3, 239757 }, -- Consecrated Legguards
+			{ 16, 240923 }, -- Duplicity
+			{ 17, 241031 }, -- Barthalomew's Promise
+			{ 18, 241037 }, -- Abandoned Experiment
+			{ 19, 240842 }, -- Scarlet Rotbringer
+			},
+		},
+		{ 
+			name = AL["Grand Crusader Caldoran"],
+			npcID = 241006,
+			Level = 999,
+			DisplayIDs = {{126218}},
+			[SOD_DIFF] = {
+			{ 1, 239715 }, -- Consecrated Robe
+			{ 2, 239761 }, -- Consecrated Breastplate
+			{ 3, 239731 }, -- Consecrated Tunic
+			{ 5, 239117 }, -- Crusader's Chalice
+			{ 6, 239215 }, -- Charred Emblem
+			{ 8, 239695 }, -- Scarlet Steed
+			{ 16, 241029 }, -- Baelin's Band
+			{ 17, 240921 }, -- Scarlet Smashbringer
+			{ 18, 240920 }, -- Leogan
+			},
+		},
+		T3_5_SET,
 	},
 }

@@ -241,6 +241,19 @@ data["Blacksmithing"] = {
 	CorrespondingFields = private.BLACKSMITHING_LINK,
 	items = {
 			{
+			name = AL["SoD Phase 8"],
+			[NORMAL_DIFF] = {
+			{ 1, 1224631 }, -- Scarlet Soldier's Helmet
+			{ 2, 1224632 }, -- Scarlet Soldier's Spaulders
+			{ 3, 1224633 }, -- Scarlet Soldier's Chestplate
+			{ 4, 1224635 }, -- Scarlet Soldier's Protectors
+			{ 5, 1224636 }, -- Scarlet Soldier's Grips
+			{ 6, 1224637 }, -- Scarlet Soldier's Waistguard
+			{ 7, 1224638 }, -- Scarlet Soldier's Legplates
+			{ 8, 1224639 }, -- Scarlet Soldier's Stompers
+			}
+		},
+			{
 			name = AL["SoD Phase 6"],
 			[NORMAL_DIFF] = {
 			{ 1, 1213746 }, -- Heavy Obsidian Belt
@@ -691,6 +704,15 @@ data["Enchanting"] = {
 	CorrespondingFields = private.ENCHANTING_LINK,
 	items = {
 		{
+			name = AL["SoD Phase 8"],
+			[NORMAL_DIFF] = {
+				{ 1, 1232172 }, -- Enchant 2H Weapon - Grand Inquisitor
+				{ 2, 1231128 }, -- Enchant Weapon - Grand Crusader
+				{ 3, 1231164 }, -- Enchant Weapon - Grand Sorcerer
+				{ 4, 1231139 }, -- Enchant 2H Weapon - Grand Arcanist
+			}
+		},
+		{
 			name = AL["SoD Phase 6"],
 			[NORMAL_DIFF] = {
 				{ 1, "INV_Box_01", nil, AL["Phase 6"], nil },
@@ -720,7 +742,6 @@ data["Enchanting"] = {
 				{ 27, 1217203 }, -- Enchant Bracer - Agility
 			}
 		},
-	
 		{
 			name = AL["SoD Phase 1-5"],
 			[NORMAL_DIFF] = {
@@ -957,6 +978,19 @@ data["Engineering"] = {
 	TableType = PROF_ITTYPE,
 	CorrespondingFields = private.ENGINEERING_LINK,
 	items = {
+			{
+			name = AL["SoD Phase 8"],
+			[NORMAL_DIFF] = {
+				{ 1, 1226206 }, -- Tinkerbox
+				{ 2, 1226207 }, -- Tinkerbox: Teleport
+				{ 3, 1226208 }, -- Tinkerbox: Nitro Boosts
+				{ 4, 1226209 }, -- Tinkerbox: Magnetic Displacement
+				{ 5, 1228088 }, -- Tinkerbox: Magnetic Displacement
+				{ 17, 1226210 }, -- Tinker: Teleport
+				{ 18, 1226211 }, -- Tinker: Nitro Boosts
+				{ 19, 1226212 }, -- Tinker: Magnetic Displacement
+			}
+		},
 			{
 			name = AL["SoD Phase 1-6"],
 			[NORMAL_DIFF] = {
@@ -1212,6 +1246,22 @@ data["Tailoring"] = {
 	TableType = PROF_ITTYPE,
 	CorrespondingFields = private.TAILORING_LINK,
 	items = {
+		{
+			name = AL["SoD Phase 8"],
+			[NORMAL_DIFF] = {
+			{ 1, "INV_Box_01", nil, AL["Phase 8"], nil },
+			{ 2, 1224607 }, -- Scarlet Augur's Hood
+			{ 3, 1224608 }, -- Scarlet Augur's Mantle
+			{ 4, 1224609 }, -- Scarlet Augur's Vestaments
+			{ 5, 1224610 }, -- Scarlet Augur's Cuffs
+			{ 6, 1224611 }, -- Scarlet Augur's Mitts
+			{ 7, 1224612 }, -- Scarlet Augur's Strap
+			{ 8, 1224613 }, -- Scarlet Augur's Leggings
+			{ 9, 1224614 }, -- Scarlet Augur's Soles
+			{ 11, 1227724 }, -- Crimson Dawnwoven Bag
+			{ 12, 1227723 }, -- Crusader's Knapsack
+			}
+		},
 			{
 			name = AL["SoD Phase 4-6"],
 			[NORMAL_DIFF] = {
@@ -1569,6 +1619,31 @@ data["Leatherworking"] = {
 	TableType = PROF_ITTYPE,
 	CorrespondingFields = private.LEATHERWORKING_LINK,
 	items = {
+		{
+			name = AL["SoD Phase 8"],
+			[NORMAL_DIFF] = {
+			{ 1, "INV_Box_01", nil, AL["Leather"], nil },
+			{ 2, 1224615 }, -- Scarlet Infiltrator's Bandana
+			{ 3, 1224616 }, -- Scarlet Infiltrator's Shoulderpads
+			{ 4, 1224617 }, -- Scarlet Infiltrator's Vest
+			{ 5, 1224618 }, -- Scarlet Infiltrator's Bracers
+			{ 6, 1224619 }, -- Scarlet Infiltrator's Gloves
+			{ 7, 1224620 }, -- Scarlet Infiltrator's Belt
+			{ 8, 1224621 }, -- Scarlet Infiltrator's Trousers
+			{ 9, 1224622 }, -- Scarlet Infiltrator's Shoes
+			{ 11, 1226689 }, -- Scarlet Quiver
+			{ 16, "INV_Box_01", nil, AL["Mail"], nil },
+			{ 17, 1224623 }, -- Scarlet Huntsman's Coif
+			{ 18, 1224624 }, -- Scarlet Huntsman's Pauldrons
+			{ 19, 1224625 }, -- Scarlet Huntsman's Chain
+			{ 20, 1224626 }, -- Scarlet Huntsman's Wristguards
+			{ 21, 1224627 }, -- Scarlet Huntsman's Handguards
+			{ 22, 1224628 }, -- Scarlet Huntsman's Clasp
+			{ 23, 1224629 }, -- Scarlet Huntsman's Legguards
+			{ 24, 1224630 }, -- Scarlet Huntsman's Boots
+			{ 26, 1226690 }, -- Scarlet Ammo Pouch
+			}
+		},
 		{
 			name = AL["SoD Phase 6"],
 			[NORMAL_DIFF] = {
@@ -2064,11 +2139,14 @@ data["Cooking"] = {
 	CorrespondingFields = private.COOKING_LINK,
 	items = {
 		{
-			name = AL["SoD Phase 1-6"],
+			name = AL["SoD Phase 1-8"],
 			[NORMAL_DIFF] = {
 				{ 1, "INV_Box_01", nil, AL["Phase 6"], nil },
 				{ 2, 470359 }, --Darkclaw Bisque
 				{ 3, 470370 }, --Smoked Redgill
+				{ 5, "INV_Box_01", nil, AL["Phase 8"], nil },
+				{ 6, 1225762 }, -- Smoked Redgill
+				{ 7, 1225763 }, -- Grand Lobster Banquet
 			},
 		},
 		{

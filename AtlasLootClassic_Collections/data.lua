@@ -77,6 +77,34 @@ data["SoD Collections"] = {
 	TableType = SET_ITTYPE,
 	items = {
 		{
+			name = AL["Level 60 Tier 3.5"],
+			[NORMAL_DIFF] = {
+				{ 1, 1945 }, -- Druid
+				{ 2, 1946 }, -- Druid
+				{ 3, 1947 }, -- Druid
+				{ 4, 1948 }, -- Druid
+				{ 6, 1936 }, -- Hunter
+				{ 7, 1937 }, -- Hunter
+				{ 9, 1943 }, -- Mage
+				{ 10, 1944 }, -- Mage
+				{ 12, 1949 }, -- Shaman
+				{ 13, 1950 }, -- Shaman
+				{ 14, 1951 }, -- Shaman
+				{ 15, 1952 }, -- Shaman
+				{ 16, 1940 }, -- Paladin
+				{ 17, 1941 }, -- Paladin
+				{ 18, 1942 }, -- Paladin
+				{ 20, 1938 }, -- Priest
+				{ 21, 1939 }, -- Priest
+				{ 23, 1934 }, -- Rogue
+				{ 24, 1935 }, -- Rogue
+				{ 26, 1953 }, -- Warlock
+				{ 27, 1954 }, -- Warlock
+				{ 29, 1932 }, -- Warrior
+				{ 30, 1933 }, -- Warrior		
+			},
+		},
+		{
 			name = AL["Level 60 Tier 3"],
 			[NORMAL_DIFF] = {
 				{ 1, 1904 }, -- Druid Balance
