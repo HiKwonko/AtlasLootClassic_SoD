@@ -10929,8 +10929,6 @@ data["The Scarlet Enclave"] = {
 			{ 2, 239759 }, -- Consecrated Bracers
 			{ 3, 239722 }, -- Consecrated Wristguards
 			{ 5, 242365 }, -- Wing of Balnazzar
-			{ 12, "INV_Box_01", nil, AL["More drop data needed,"], nil },
-			{ 13, "INV_Box_01", nil, AL["Will be updated soon :)"], nil },
 			{ 16, 241179 }, -- Leggings of Catastrophe
 			{ 17, 241178 }, -- Stalwart Pain Plate
 			{ 18, 241184 }, -- Savior Sandals
@@ -10955,6 +10953,7 @@ data["The Scarlet Enclave"] = {
 			{ 2, 239760 }, -- Consecrated Waistguard
 			{ 3, 239756 }, -- Consecrated Girdle
 			{ 5, 239196 }, -- Ruined Lightforged Blade
+			{ 7, 239694 }, -- Covenant of Light
 			{ 16, 240997 }, -- Fratlet's Spur
 			{ 17, 241077 }, -- Cardinal's Chapeau
 			{ 18, 241159 }, -- Monastery Garb
@@ -10989,6 +10988,7 @@ data["The Scarlet Enclave"] = {
 			{ 24, 241073 }, -- Touch of Light
 			{ 25, 241034 }, -- Heart of Light
 			{ 26, 241168 }, -- Sunblaze Grips
+			{ 27, 240850 }, -- Lightfist Hammer
 			},
 		},
 		{ 
@@ -11000,6 +11000,8 @@ data["The Scarlet Enclave"] = {
 			{ 1, 239716 }, -- Consecrated Gloves
 			{ 2, 239762 }, -- Consecrated Gauntlets
 			{ 3, 239730 }, -- Consecrated Handguards
+			{ 5, "INV_Box_01", nil, AL["Hoard of the Pirate Lord"], nil },
+			{ 6, 241241 }, -- Lucky Doubloon
 			{ 16, 241011 }, -- Greatstaff of Fealty
 			{ 17, 240925 }, -- Experiment-800M
 			{ 18, 240843 }, -- Starter's Pistol
@@ -11011,6 +11013,8 @@ data["The Scarlet Enclave"] = {
 			{ 24, 241071 }, -- Talisman of the Scarlet Scoundrel
 			{ 25, 239060 }, -- Will of the Mountain
 			{ 26, 241187 }, -- Crimson Wartreads
+			{ 27, 241182 }, -- Templar Plate Legguards
+			{ 28, 241025 }, -- Flag of the Broken Admiral
 			},
 		},
 		{ 
@@ -11031,6 +11035,9 @@ data["The Scarlet Enclave"] = {
 			{ 22, 241069 }, -- Choke Chain
 			{ 23, 241167 }, -- Prisoner Shackles
 			{ 24, 241164 }, -- Scrapped Argent Leathers
+			{ 25, 241185 }, -- Bear Training Boots
+			{ 26, 241165 }, -- Penitent Wraps
+			{ 27, 241154 }, -- Bearskin Mantle
 			},
 		},
 		{ 
@@ -11045,9 +11052,17 @@ data["The Scarlet Enclave"] = {
 			{ 5, 239117 }, -- Crusader's Chalice
 			{ 16, 241008 }, -- Condemnation
 			{ 17, 241003 }, -- Mirage, Rod of Illusion
-			{ 18, 241075 }, -- Raging Destroyer's Helm
-			{ 19, 241070 }, -- Hope of Herod
-			{ 20, 240853 }, -- Queensfall
+			{ 18, 240919 }, -- Ravagane
+			{ 19, 240998 }, -- Soporific Blade
+			{ 20, 240854 }, -- Mercy
+			{ 21, 240853 }, -- Queensfall
+			{ 22, 241015 }, -- Aegis of the Scarlet Bastion
+			{ 23, 241075 }, -- Raging Destroyer's Helm
+			{ 24, 241070 }, -- Hope of Herod
+			{ 25, 241153 }, -- Doan's Mantle
+			{ 26, 241175 }, -- Torturer's Toolbelt
+			{ 27, 241080 }, -- Herod's Pauldron
+			{ 28, 241174 }, -- Girdle of the Reborn Champion
 			},
 		},
 		{ 
@@ -11063,6 +11078,14 @@ data["The Scarlet Enclave"] = {
 			{ 17, 241031 }, -- Barthalomew's Promise
 			{ 18, 241037 }, -- Abandoned Experiment
 			{ 19, 240842 }, -- Scarlet Rotbringer
+			{ 20, 240844 }, -- Putress' Poker
+			{ 21, 241004 }, -- Conundrum
+			{ 22, 241012 }, -- Wand of Reanimation
+			{ 23, 242436 }, -- Putress' Diary
+			{ 24, 241078 }, -- Shroud of the Embalmed
+			{ 25, 241160 }, -- Dawnworn Chainmail
+			{ 26, 241161 }, -- Templar Breastplate
+			{ 27, 241072 }, -- Vial of Pus
 			},
 		},
 		{ 
@@ -11077,9 +11100,18 @@ data["The Scarlet Enclave"] = {
 			{ 5, 239117 }, -- Crusader's Chalice
 			{ 6, 239215 }, -- Charred Emblem
 			{ 8, 239695 }, -- Scarlet Steed
+			{ 12, "INV_Box_01", nil, AL["Some drops may still be missing"], nil },
+			{ 13, "INV_Box_01", nil, AL["Will be updated soon :)"], nil },
 			{ 16, 241029 }, -- Baelin's Band
 			{ 17, 240921 }, -- Scarlet Smashbringer
 			{ 18, 240920 }, -- Leogan
+			{ 19, 240851 }, -- Regicide
+			{ 20, 240841 }, -- High Commander's Guard
+			{ 21, 241001 }, -- Tyr's Fall
+			{ 22, 240852 }, -- Crimson Cleaver
+			{ 23, 241172 }, -- Caldoran's Locked Gauntlets
+			{ 24, 241039 }, -- Infusion of Souls
+			{ 25, 241032 }, -- Ring of Resurrection
 			},
 		},
 		T3_5_SET,
