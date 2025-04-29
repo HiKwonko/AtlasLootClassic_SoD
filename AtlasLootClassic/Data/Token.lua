@@ -497,22 +497,22 @@ TOKEN_DATA.CLASSIC = {
 
 	--- Cenarion Circle Dailies
 	-- Exalted
-	[21188] = { "f609rep8", 0, {20802, 15}, {20800, 20}, {20801, 20}, 21508 }, -- Fist of Cenarius
-	[21180] = 21188, -- Earthstrike
-	[21190] = 21188, -- Wrath of Cenarius
+	[234747] = { "f609rep8", 0, {20802, 15}, {20800, 20}, {20801, 20}, 21508 }, -- Fist of Cenarius
+	[234462] = 234747, -- Earthstrike
+	[234463] = 234747, -- Wrath of Cenarius
 	-- Revered
-	[21184] = { "f609rep7", 0, {20802, 15}, {20800, 20}, {20801, 17}, 21515 }, -- Deeprock Bracers
-	[21186] = 21184, -- Rockfury Bracers
-	[21185] = 21184, -- Earthcalm Orb
-	[21189] = 21184, -- Might of Cenarius
+	[234748] = { "f609rep7", 0, {20802, 15}, {20800, 20}, {20801, 17}, 21515 }, -- Deeprock Bracers
+	[234760] = 234748, -- Rockfury Bracers
+	[234749] = 234748, -- Earthcalm Orb
+	[234761] = 234748, -- Might of Cenarius
 	-- Honored
-	[21181] = { "f609rep6", 0, {20802, 7}, {20800, 4}, {20801, 4} }, -- Grace of Earth
-	[21183] = 21181, -- Earthpower Vest
-	[21182] = 21181, -- Band of Earthen Might
+	[234779] = { "f609rep6", 0, {20802, 7}, {20800, 4}, {20801, 4} }, -- Grace of Earth
+	[234782] = 234779, -- Earthpower Vest
+	[234780] = 234779, -- Band of Earthen Might
 	-- Friendly
-	[21178] = { "f609rep5", 0, {20802, 5}, {20800, 3}, {20801, 7} }, -- Gloves of Earthen Power
-	[21187] = 21178, -- Earthweave Cloak
-	[21179] = 21178, -- Band of Earthen Wrath
+	[234785] = { "f609rep5", 0, {20802, 5}, {20800, 3}, {20801, 7} }, -- Gloves of Earthen Power
+	[234788] = 234785, -- Earthweave Cloak
+	[234786] = 234785, -- Band of Earthen Wrath
 	[227728] = {227683, type = 4 }, -- Eye of Sulfuras
 	[226557] = { 226557, 226568, type = 9 }, -- Arcanist Boots
 	[226552] = { 226552, 216921, type = 9 }, -- Felheart Gloves
