@@ -94,8 +94,9 @@ data["SoD Collections"] = {
 				{ 16, 1940 }, -- Paladin
 				{ 17, 1941 }, -- Paladin
 				{ 18, 1942 }, -- Paladin
-				{ 20, 1938 }, -- Priest
-				{ 21, 1939 }, -- Priest
+				{ 19, 1963 }, -- Paladin
+				{ 21, 1938 }, -- Priest
+				{ 22, 1939 }, -- Priest
 				{ 23, 1934 }, -- Rogue
 				{ 24, 1935 }, -- Rogue
 				{ 26, 1953 }, -- Warlock

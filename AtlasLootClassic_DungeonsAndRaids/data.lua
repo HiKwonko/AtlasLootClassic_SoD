@@ -217,8 +217,9 @@ local T3_5_SET = {
 		{ 16, 1940 }, -- Paladin
 		{ 17, 1941 }, -- Paladin
 		{ 18, 1942 }, -- Paladin
-		{ 20, 1938 }, -- Priest
-		{ 21, 1939 }, -- Priest
+		{ 19, 1963 }, -- Paladin
+		{ 21, 1938 }, -- Priest
+		{ 22, 1939 }, -- Priest
 		{ 23, 1934 }, -- Rogue
 		{ 24, 1935 }, -- Rogue
 		{ 26, 1953 }, -- Warlock
@@ -8395,7 +8396,6 @@ data["Zul'Gurub"] = {
 				{ 7,  19718 }, -- Primal Hakkari Stanchion
 				{ 8,  19719 }, -- Primal Hakkari Girdle
 				{ 9,  19720 }, -- Primal Hakkari Sash
-				{ 15, "INV_Box_01", nil, AL["Loot unconfirmed"], nil },
 				{ 16, 230911 }, -- Jeklik's Crusher
 				{ 18, 230913 }, -- Jeklik's Opaline Talisman
 				{ 19, 230912 }, -- Animist's Spaulders
@@ -9049,10 +9049,11 @@ data["TheRuinsofAhnQiraj"] = { -- AQ20
 			[SOD_DIFF] = {
 				{ 1,  234062 }, -- Vestments of the Shifting Sands
 				{ 2,  234061 }, -- Qiraji Sacrificial Dagger
-				{ 4,  234065 }, -- Sand Reaver Wristguards
-				{ 5,  234066 }, -- Toughened Silithid Hide Gloves
-				{ 6,  234064 }, -- Belt of the Inquisition
-				{ 7,  234063 }, -- Belt of the Sand Reaver
+				{ 3,  234118 }, -- Gavel of Qiraji Authority
+				{ 5,  234065 }, -- Sand Reaver Wristguards
+				{ 6,  234066 }, -- Toughened Silithid Hide Gloves
+				{ 7,  234064 }, -- Belt of the Inquisition
+				{ 8,  234063 }, -- Belt of the Sand Reaver
 				{ 19, 20885 }, -- Qiraji Martial Drape
 				{ 20, 20889 }, -- Qiraji Regal Drape
 				{ 21, 20888 }, -- Qiraji Ceremonial Ring
@@ -9084,10 +9085,7 @@ data["TheRuinsofAhnQiraj"] = { -- AQ20
 				{ 5,  234072 }, -- Southwind's Grasp
 				{ 6,  234071 }, -- Legplates of the Qiraji Command
 				{ 7,  234069 }, -- Boots of the Qiraji General
-				{ 9,  "INV_Box_01", nil, AL["Trash"] },
-				{ 10,  21810 }, -- Treads of the Wandering Nomad
-				{ 11,  21809 }, -- Fury of the Forgotten Swarm
-				{ 12,  21806 }, -- Gavel of Qiraji Authority
+				{ 8,  234116 }, -- Fury of the Forgotten Swarm
 				{ 19, 20885 }, -- Qiraji Martial Drape
 				{ 20, 20889 }, -- Qiraji Regal Drape
 				{ 21, 20888 }, -- Qiraji Ceremonial Ring
@@ -9121,6 +9119,7 @@ data["TheRuinsofAhnQiraj"] = { -- AQ20
 				{ 2,  234077 }, -- Thick Silithid Chestguard
 				{ 3,  234075 }, -- Gauntlets of the Immovable
 				{ 4,  234076 }, -- Talon of Furious Concentration
+				{ 5,  234117 }, -- Treads of the Wandering Nomad
 				{ 6,  234084 }, -- Southwind Helm
 				{ 7,  234082 }, -- Mantle of Maz'Nadir
 				{ 8,  234078 }, -- Chitinous Shoulderguards
@@ -9252,6 +9251,7 @@ data["TheRuinsofAhnQiraj"] = { -- AQ20
 				{ 10, 234104 }, -- Crossbow of Imminent Doom
 				{ 11, 234112 }, -- Sand Polished Hammer
 				{ 12, 234115 }, -- Staff of the Ruins
+				{ 13, 234109 }, -- Mantle of the Horusath
 				{ 16, 20890 }, -- Qiraji Ornate Hilt
 				{ 17, 20886 }, -- Qiraji Spiked Hilt
 				{ 20, 20888 }, -- Qiraji Ceremonial Ring
@@ -11000,8 +11000,6 @@ data["The Scarlet Enclave"] = {
 			{ 1, 239716 }, -- Consecrated Gloves
 			{ 2, 239762 }, -- Consecrated Gauntlets
 			{ 3, 239730 }, -- Consecrated Handguards
-			{ 5, "INV_Box_01", nil, AL["Hoard of the Pirate Lord"], nil },
-			{ 6, 241241 }, -- Lucky Doubloon
 			{ 16, 241011 }, -- Greatstaff of Fealty
 			{ 17, 240925 }, -- Experiment-800M
 			{ 18, 240843 }, -- Starter's Pistol
@@ -11086,6 +11084,7 @@ data["The Scarlet Enclave"] = {
 			{ 25, 241160 }, -- Dawnworn Chainmail
 			{ 26, 241161 }, -- Templar Breastplate
 			{ 27, 241072 }, -- Vial of Pus
+			{ 28, 241156 }, -- Blighted Robes
 			},
 		},
 		{ 
@@ -11099,19 +11098,32 @@ data["The Scarlet Enclave"] = {
 			{ 3, 239731 }, -- Consecrated Tunic
 			{ 5, 239117 }, -- Crusader's Chalice
 			{ 6, 239215 }, -- Charred Emblem
-			{ 8, 239695 }, -- Scarlet Steed
-			{ 12, "INV_Box_01", nil, AL["Some drops may still be missing"], nil },
-			{ 13, "INV_Box_01", nil, AL["Will be updated soon :)"], nil },
+			{ 7, 242366 }, -- Inescapable Fate
+			{ 9, 239695 }, -- Scarlet Steed
+			{ 11, 239696 }, -- Hilt of the Ashbringer
 			{ 16, 241029 }, -- Baelin's Band
 			{ 17, 240921 }, -- Scarlet Smashbringer
 			{ 18, 240920 }, -- Leogan
 			{ 19, 240851 }, -- Regicide
-			{ 20, 240841 }, -- High Commander's Guard
-			{ 21, 241001 }, -- Tyr's Fall
-			{ 22, 240852 }, -- Crimson Cleaver
-			{ 23, 241172 }, -- Caldoran's Locked Gauntlets
-			{ 24, 241039 }, -- Infusion of Souls
-			{ 25, 241032 }, -- Ring of Resurrection
+			{ 20, 241006 }, -- Spire of Sacrifice
+			{ 21, 240841 }, -- High Commander's Guard
+			{ 22, 241001 }, -- Tyr's Fall
+			{ 23, 240852 }, -- Crimson Cleaver
+			{ 24, 241172 }, -- Caldoran's Locked Gauntlets
+			{ 25, 241039 }, -- Infusion of Souls
+			{ 26, 241032 }, -- Ring of Resurrection
+			{ 27, 241024 }, -- Scarlet Commander's Cape
+			{ 28, 241021 }, -- The Light
+			},
+		},
+		{ -- ScarletEnclaveExtra
+			name = AL["World Spawn"],
+			ExtraList = true,
+			[SOD_DIFF] = {
+				{ 1, "INV_Box_01", nil, AL["Various Spawn Locations"], nil },
+				{ 2,  238945 }, -- Caladboulder
+				{ 4, "INV_Box_01", nil, AL["Hoard of the Pirate Lord"], nil },
+				{ 5, 241241 }, -- Lucky Doubloon
 			},
 		},
 		T3_5_SET,
