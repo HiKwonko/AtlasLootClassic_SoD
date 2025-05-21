@@ -1638,9 +1638,22 @@ PROFESSION_DATA.CLASSIC = {
 	[1232172] = {nil,10,280,290,300,{14344,12811,20725,12938},{10,6,4,1}}, -- Enchant 2H Weapon - Grand Inquisitor
 	[1231128] = {nil,10,280,290,300,{14344,12811,20725,12938},{5,2,2,1}}, -- Enchant Weapon - Grand Crusader
 	[1231164] = {nil,10,280,290,300,{14344,12811,20725,12938},{6,3,2,1}}, -- Enchant Weapon - Grand Sorcerer
-	[1231139] = {nil,10,280,290,300,{14344,12811,20725,12938},{10,4,4,1}}, -- Ennchant 2H Weapon - Grand Arcanist
+	[1231139] = {nil,10,280,290,300,{14344,12811,20725,12938},{10,4,4,1}}, -- Enchant 2H Weapon - Grand Arcanist
 	[1225762] = {238641,6,300,345,365,{4603,12184,6362,239017},{12,4,3,1}}, -- Spacklefin Feast
 	[1225763] = {238642,6,300,345,365,{13888,3712,3404,239017},{12,4,3,1}}, -- Grand Lobster Banquet
+	[1219580] = {nil,10,300,340,360,{20725,16204,12938,8831},{3,24,1,6}}, -- Enchant 2H Weapon - Spellblasting
+	[1220624] = {nil,10,300,340,360,{16203,16204,12808,8831},{3,9,12,2}}, -- Enchant Bracer - Greater Spellpower
+	[1219587] = {nil,10,300,340,360,{16203,16204,7078},{3,9,1}}, -- Enchant Cloak - Agility
+	[1219586] = {nil,10,300,340,360,{16203,16204,7078},{7,21,2}}, -- Enchant Gloves - Superior Strength
+	[1220623] = {nil,10,300,340,360,{14344,16204,12938},{5,15,1}}, -- Enchant Shield - Critical Strike
+	[1219577] = {nil,10,300,340,360,{20725,16204,7082},{2,18,2}}, -- Enchant Off-Hand - Superior Intellect
+	[1219579] = {nil,10,300,340,360,{14344,16204,7082,7080},{6,18,1,1}}, -- Enchant Off-Hand - Wisdom
+	[1219578] = {nil,10,300,340,360,{20725,16204,7080},{2,18,2}}, -- Enchant Off-Hand - Excellent Spirit
+	[1219581] = {nil,10,300,340,360,{14344,16204,7076},{6,18,2}}, -- Enchant Shield - Excellent Stamina
+	[1221012] = {236871,9,300,320,340,{8170,12800},{8,2}}, -- Creepy Censor Sensors
+	[1226213] = {238781,9,300,320,340,{16006,18631,10560,10561,10588,12811},{1,2,1,2,2,1}}, -- Semisafe Transporter: New Avalon
+	[17579] = {13460,4,290,310,330,{7069,13463,8925},{1,1,1}}, -- Greater Holy Protection Potion
+	[1231583] = {241650,4,270,380,290,{241652,13466,8925},{1,2,1}}, -- Major Discolored Healing Potion
 }
 if AtlasLoot:GameVersion_GE(AtlasLoot.BC_VERSION_NUM) then
     PROFESSION_DATA.BCC = {

@@ -1156,6 +1156,10 @@ RECIPE_DATA.CLASSIC = {
 	[241195] = {10,280,1231139}, -- Formula: Enchant 2H Weapon - Grand Arcanist
 	[239021] = {6,290,1225762}, -- Recipe: Specklefin Feast
 	[239021] = {6,290,1225763}, -- Recipe: Grand Lobster Banquet
+	[236872] = {9,300,1221012}, -- Schematic: Creepy Censor Sensors
+	[238789] = {9,300,1226213}, -- Schematic: Semisafe Transporter: New Avalon
+	[13460] = {4,290,17519}, -- Recipe: Greater Holy Protection Potion
+	[241651] = {4,270,1231583}, -- Recipe: Major Discolored Healing Potion
 }
 
 if AtlasLoot:GameVersion_GE(AtlasLoot.BC_VERSION_NUM) then

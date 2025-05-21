@@ -47,7 +47,7 @@ data["Alchemy"] = {
 	CorrespondingFields = private.ALCHEMY_LINK,
 	items = {
 		{
-			name = AL["SoD Phase 1-6"],
+			name = AL["SoD Phase 1-8"],
 			[NORMAL_DIFF] = {
 				{ 1, "INV_Box_01", nil, AL["Phase 1"], nil },
 				{ 2, 426607 }, --Elixir of Coalesced Regret
@@ -70,6 +70,9 @@ data["Alchemy"] = {
 				{ 22, 1213552 }, -- Flask of Madness
 				{ 23, 1213548 }, -- Flask of the Old Gods
 				{ 24, 1213544 }, -- Flask of Unyielding Sorrow
+				{ 26, "INV_Box_01", nil, AL["Phase 8"], nil },
+				{ 27, 17579 }, -- Flask of Unyielding Sorrow
+				{ 28, 1231583 }, -- Major Discolored Healing Potion
 			},
 		},
 		{
@@ -713,6 +716,21 @@ data["Enchanting"] = {
 			}
 		},
 		{
+			name = AL["SoD Phase 7"],
+			[NORMAL_DIFF] = {
+				{ 1, "INV_Box_01", nil, AL["Karazhan Enchants"], nil },
+				{ 2, 1219580 }, -- Enchant 2H Weapon - Spellblasting
+				{ 3, 1220624 }, -- Enchant Bracer - Greater Spellpower
+				{ 4, 1219587 }, -- Enchant Cloak - Agility
+				{ 5, 1219586 }, -- Enchant Gloves - Superior Strength
+				{ 6, 1220623 }, -- Enchant Shield - Critical Strike
+				{ 7, 1219577 }, -- Enchant Off-Hand - Superior Intellect
+				{ 8, 1219579 }, -- Enchant Off-Hand - Wisdom
+				{ 9, 1219578 }, -- Enchant Off-Hand - Excellent Spirit
+				{ 10, 1219581 }, -- Enchant Shield - Excellent Stamina
+			}
+		},
+		{
 			name = AL["SoD Phase 6"],
 			[NORMAL_DIFF] = {
 				{ 1, "INV_Box_01", nil, AL["Phase 6"], nil },
@@ -985,14 +1003,15 @@ data["Engineering"] = {
 				{ 2, 1226207 }, -- Tinkerbox: Teleport
 				{ 3, 1226208 }, -- Tinkerbox: Nitro Boosts
 				{ 4, 1226209 }, -- Tinkerbox: Magnetic Displacement
-				{ 5, 1228088 }, -- Tinkerbox: Magnetic Displacement
+				{ 6, 1228088 }, -- Pup-Up Shrub
+				{ 7, 1226213 }, -- Semisafe Transporter: New Avalon
 				{ 17, 1226210 }, -- Tinker: Teleport
 				{ 18, 1226211 }, -- Tinker: Nitro Boosts
 				{ 19, 1226212 }, -- Tinker: Magnetic Displacement
 			}
 		},
 			{
-			name = AL["SoD Phase 1-6"],
+			name = AL["SoD Phase 1-7"],
 			[NORMAL_DIFF] = {
 				{ 1, "INV_Box_01", nil, AL["Phase 1"], nil },
 				{ 2, 424641 }, --Shredder Autosalvage Unit
@@ -1018,6 +1037,8 @@ data["Engineering"] = {
 				{ 25, 1213588 }, -- Tuned Force Reactive Disk
 				{ 26, 1217207 }, -- Obsidian Scope
 				{ 27, 1213586 }, -- G00 DV-1B3 Generator
+				{ 29, "INV_Box_01", nil, AL["Phase 7"], nil },
+				{ 30, 1221012 }, -- Creepy Censor Sensors
 			}
 		},
 		{
